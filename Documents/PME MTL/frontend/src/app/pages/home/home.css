@@ -1,0 +1,22 @@
+:host {
+  display: block;
+}
+
+.home {
+  width: 100%;
+}
+
+.home__section {
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border-bottom: 1px solid #d8dee8;
+}
+
+.home__section:nth-child(even) {
+  background-color: #f4f6f9;
+}
+
+.home__section h2 {
+  margin: 0;
+  color: #1f2937;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+}
