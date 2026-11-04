@@ -1,0 +1,35 @@
+{
+    "commun": {
+        "menu_bar": {
+            "territory": "Territoires",
+            "thematic": "Thématiques",
+            "compare": "Comparer",
+            "methodology": "Méthode",
+            "east_perspective": "L'EST EN PERSPECTIVE"
+            
+        },
+        "return": "Retour",
+        "open": "Ouvrir",
+        "bottom_part":{"initiative":"Une initiative de PME MTL EST-de-l'Île", "how_to_read_data":"Comment lire ces données", "contact":"Contact"}
+    },
+    "home_page": {
+        "main":{
+        "observatory_of_dynamics": "Observatoire des dynamiques socio-économiques",
+        "understand_dynamics_title": "Comprendre les dynamiques socio-économiques de l'Est de Montréal",
+        "five_territories_titles": "Cinq territoires. Sept thématiques. Des perspectives pour éclairer vos décisions.",
+        "explore_territories": "Explorer les territoires",
+        "explore_thematics": "Explorer une thématique",
+        "scroll_to_explore": "Faites défiler pour explorer l'Est"
+        },
+        "angles_section":{
+            "title":"Un territoire se comprend mieux sous plusieurs angles.",
+            "sub_title":"Passez du portrait d'ensemble aux dimensions qui vous intéressent.",
+            "by_territory":"Par territoire",
+            "explore_by_territory":"Repérer les atouts, enjeux et écarts des cinq territoires",
+            "by_thematic":"Par thématique",
+            "explore_by_thematic":"Explorer chaque dimensions du sondage et comprendre les réponses.",
+            "by_comparison":"Par comparaison",
+            "explore_by_comparison":"Mettre en regard des réponses comparables entre territoires."
+        }
+    }
+}
