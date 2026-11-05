@@ -1,0 +1,24 @@
+.bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  color: #596278;
+}
+
+.bottom-bar button {
+  border: 0;
+  padding: 0;
+  background: #fff;
+  color: var(--couleur-titres, #05325a);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .bottom-bar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

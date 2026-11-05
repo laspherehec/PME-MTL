@@ -3,12 +3,76 @@
     <app-menu-bar />
   </section>
 
-  <section class="home__section" aria-labelledby="main-section">
+  <section class="home__section home__section--map" aria-labelledby="main-section">
+    <h4 class="first_title_map">{{ 'home_page.main.observatory_of_dynamics' | transloco }}</h4>
+    <h1 class="big_title_map">{{ 'home_page.main.understand_dynamics_title' | transloco }}</h1>
+    <h4 class="subtitle_map">{{ 'home_page.main.five_territories_titles' | transloco }}</h4>
+
+    <div class="home__map-actions">
+      <button class="home__map-button home__map-button--primary" type="button">
+        {{ 'home_page.main.explore_territories' | transloco }} ↓
+      </button>
+      <button class="home__map-button home__map-button--secondary" type="button">
+        {{ 'home_page.main.explore_thematics' | transloco }}
+      </button>
+    </div>
+
+    <img class="home__map-image" src="assets/images/map_canada_temp.png" alt="Carte Canada" />
+    <div class="home_regions">
+      <button class="region" type="button">Montréal-Nord</button>
+      <button class="region" type="button">Saint-Léonard</button>
+      <button class="region" type="button">Anjou</button>
+      <button class="region" type="button">Montréal-Est</button>
+      <button class="region" type="button">RDP-PAT</button>
+    </div>
+    <h4 class="subtitle_map2">{{ 'home_page.main.scroll_to_explore' | transloco }}</h4>
+
   </section>
 
-  <section class="home__section" aria-labelledby="dimensions-section">
+  <section class="home__section home__angles" aria-labelledby="dimensions-section">
+    <header class="home__angles-header">
+      <h2 id="dimensions-section">{{ 'home_page.angles_section.title' | transloco }}</h2>
+      <p>{{ 'home_page.angles_section.sub_title' | transloco }}</p>
+    </header>
+
+    <div class="home__angle-cards">
+      <button class="home__angle-card" type="button">
+        <span class="home__angle-card-eyebrow">{{ 'home_page.angles_section.explore' | transloco }}</span>
+        <strong>{{ 'home_page.angles_section.by_territory' | transloco }}</strong>
+        <span class="home__angle-card-description">
+          {{ 'home_page.angles_section.explore_by_territory' | transloco }}
+        </span>
+        <span class="home__angle-card-action">{{ 'commun.open' | transloco }}   → </span>
+      </button>
+
+      <button class="home__angle-card" type="button">
+        <span class="home__angle-card-eyebrow">{{ 'home_page.angles_section.explore' | transloco }}</span>
+        <strong>{{ 'home_page.angles_section.by_thematic' | transloco }}</strong>
+        <span class="home__angle-card-description">
+          {{ 'home_page.angles_section.explore_by_thematic' | transloco }}
+        </span>
+        <span class="home__angle-card-action">{{ 'commun.open' | transloco }}    →</span>
+      </button>
+
+      <button class="home__angle-card" type="button">
+        <span class="home__angle-card-eyebrow">{{ 'home_page.angles_section.explore' | transloco }}</span>
+        <strong>{{ 'home_page.angles_section.by_comparison' | transloco }}</strong>
+        <span class="home__angle-card-description">
+          {{ 'home_page.angles_section.explore_by_comparison' | transloco }}
+        </span>
+        <span class="home__angle-card-action">{{ 'commun.open' | transloco }}   →</span>
+      </button>
+    </div>
+  </section>
+  <section class="home__section home__footer" aria-label="Pied de page">
+    <div class="home__footer-content">
+      <p>{{ 'commun.bottom_part.initiative' | transloco }}</p>
+      <img src="assets/images/logo.png" alt="Logo PME MTL" />
+    </div>
+    <hr class="home__footer-divider" />
   </section>
 
-  <section class="home__section" aria-labelledby="bottom-bar-section">
+  <section class="home__section home__section--bottom-bar" aria-label="Pied de page">
+    <app-bottom-bar />
   </section>
 </main>

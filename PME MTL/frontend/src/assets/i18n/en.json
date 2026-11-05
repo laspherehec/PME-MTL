@@ -1,1 +1,38 @@
-{}
+{
+    "commun": {
+        "menu_bar": {
+            "territory": "Territories",
+            "thematic": "Themes",
+            "compare": "Compare",
+            "methodology": "Method",
+            "east_perspective": "THE EAST IN PERSPECTIVE"
+        },
+        "return": "Back",
+        "open": "Open",
+        "bottom_part": {
+            "initiative": "An initiative of PME MTL EST-de-l'Île",
+            "how_to_read_data": "How to read this data"
+        }
+    },
+    "home_page": {
+        "main": {
+            "observatory_of_dynamics": "OBSERVATORY OF SOCIO-ECONOMIC DYNAMICS",
+            "understand_dynamics_title": "Understanding the socio-economic dynamics of East Montreal",
+            "five_territories_titles": "Five territories. Seven themes. Perspectives to enlighten your decisions.",
+            "explore_territories": "Explore the territories",
+            "explore_thematics": "Explore a theme",
+            "scroll_to_explore": "Scroll to explore the East"
+        },
+        "angles_section": {
+            "explore": "Explore",
+            "title": "A territory is better understood from several angles.",
+            "sub_title": "Move from the overall picture to the dimensions that interest you.",
+            "by_territory": "By territory",
+            "explore_by_territory": "Identify assets, issues, and gaps across the five territories",
+            "by_thematic": "By theme",
+            "explore_by_thematic": "Explore each survey dimension and understand the responses.",
+            "by_comparison": "By comparison",
+            "explore_by_comparison": "Compare relevant responses across territories."
+        }
+    }
+}
