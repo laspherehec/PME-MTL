@@ -16,7 +16,7 @@
     },
     "home_page": {
         "main": {
-            "observatory_of_dynamics": "Observatory of socio-economic dynamics",
+            "observatory_of_dynamics": "OBSERVATORY OF SOCIO-ECONOMIC DYNAMICS",
             "understand_dynamics_title": "Understanding the socio-economic dynamics of East Montreal",
             "five_territories_titles": "Five territories. Seven themes. Perspectives to enlighten your decisions.",
             "explore_territories": "Explore the territories",
@@ -24,6 +24,7 @@
             "scroll_to_explore": "Scroll to explore the East"
         },
         "angles_section": {
+            "explore": "Explore",
             "title": "A territory is better understood from several angles.",
             "sub_title": "Move from the overall picture to the dimensions that interest you.",
             "by_territory": "By territory",

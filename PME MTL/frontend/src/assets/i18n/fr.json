@@ -14,7 +14,7 @@
     },
     "home_page": {
         "main":{
-        "observatory_of_dynamics": "Observatoire des dynamiques socio-économiques",
+        "observatory_of_dynamics": "OBSERVATOIRE DES DYNAMIQUES SOCIO-ÉCONOMIQUES",
         "understand_dynamics_title": "Comprendre les dynamiques socio-économiques de l'Est de Montréal",
         "five_territories_titles": "Cinq territoires. Sept thématiques. Des perspectives pour éclairer vos décisions.",
         "explore_territories": "Explorer les territoires",
@@ -22,6 +22,7 @@
         "scroll_to_explore": "Faites défiler pour explorer l'Est"
         },
         "angles_section":{
+            "explore":"Explorer",
             "title":"Un territoire se comprend mieux sous plusieurs angles.",
             "sub_title":"Passez du portrait d'ensemble aux dimensions qui vous intéressent.",
             "by_territory":"Par territoire",
