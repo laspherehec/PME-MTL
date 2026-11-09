@@ -1,1 +1,31 @@
-<p>comparison-tool works!</p>
+<main class="comparison-tool">
+
+  <!-- En tête -->
+  <header class="comparison-tool__header">
+
+    <span class="comparison-tool__label">
+      {{ 'comparison_page.label' | transloco }}
+    </span>
+
+    <h1 class="comparison-tool__title">
+      {{ 'comparison_page.title' | transloco }}
+    </h1>
+
+    <p class="comparison-tool__description">
+      {{ 'comparison_page.description' | transloco }}
+    </p>
+
+  </header>
+
+ <!-- Premier composant -->
+ <app-comparison-panel
+    (compare)="onCompare($event)"
+  ></app-comparison-panel>
+
+
+   <!-- Deuxième composant -->
+  <app-comparison-result
+    [comparison]="selectedComparison"
+  ></app-comparison-result>
+
+</main>
