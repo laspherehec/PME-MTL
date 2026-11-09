@@ -1,36 +1,64 @@
 {
-    "commun": {
-        "menu_bar": {
-            "territory": "Territoires",
-            "thematic": "Thématiques",
-            "compare": "Comparer",
-            "methodology": "Méthode",
-            "east_perspective": "L'EST EN PERSPECTIVE"
-            
-        },
-        "return": "Retour",
-        "open": "Ouvrir",
-        "bottom_part":{"initiative":"Une initiative de PME MTL EST-de-l'Île", "how_to_read_data":"Comment lire ces données", "contact":"Contact"}
+  "commun": {
+    "menu_bar": {
+      "territory": "Territoires",
+      "thematic": "Thématiques",
+      "compare": "Comparer",
+      "methodology": "Méthode",
+      "east_perspective": "L'EST EN PERSPECTIVE"
     },
-    "home_page": {
-        "main":{
-        "observatory_of_dynamics": "OBSERVATOIRE DES DYNAMIQUES SOCIO-ÉCONOMIQUES",
-        "understand_dynamics_title": "Comprendre les dynamiques socio-économiques de l'Est de Montréal",
-        "five_territories_titles": "Cinq territoires. Sept thématiques. Des perspectives pour éclairer vos décisions.",
-        "explore_territories": "Explorer les territoires",
-        "explore_thematics": "Explorer une thématique",
-        "scroll_to_explore": "Faites défiler pour explorer l'Est"
-        },
-        "angles_section":{
-            "explore":"Explorer",
-            "title":"Un territoire se comprend mieux sous plusieurs angles.",
-            "sub_title":"Passez du portrait d'ensemble aux dimensions qui vous intéressent.",
-            "by_territory":"Par territoire",
-            "explore_by_territory":"Repérer les atouts, enjeux et écarts des cinq territoires",
-            "by_thematic":"Par thématique",
-            "explore_by_thematic":"Explorer chaque dimensions du sondage et comprendre les réponses.",
-            "by_comparison":"Par comparaison",
-            "explore_by_comparison":"Mettre en regard des réponses comparables entre territoires."
-        }
+    "return": "Retour",
+    "open": "Ouvrir",
+    "bottom_part": {
+      "initiative": "Une initiative de PME MTL EST-de-l'Île",
+      "how_to_read_data": "Comment lire ces données",
+      "contact": "Contact"
     }
+  },
+  "home_page": {
+    "main": {
+      "observatory_of_dynamics": "OBSERVATOIRE DES DYNAMIQUES SOCIO-ÉCONOMIQUES",
+      "understand_dynamics_title": "Comprendre les dynamiques socio-économiques de l'Est de Montréal",
+      "five_territories_titles": "Cinq territoires. Sept thématiques. Des perspectives pour éclairer vos décisions.",
+      "explore_territories": "Explorer les territoires",
+      "explore_thematics": "Explorer une thématique",
+      "scroll_to_explore": "Faites défiler pour explorer l'Est"
+    },
+    "angles_section": {
+      "explore": "Explorer",
+      "title": "Un territoire se comprend mieux sous plusieurs angles.",
+      "sub_title": "Passez du portrait d'ensemble aux dimensions qui vous intéressent.",
+      "by_territory": "Par territoire",
+      "explore_by_territory": "Repérer les atouts, enjeux et écarts des cinq territoires",
+      "by_thematic": "Par thématique",
+      "explore_by_thematic": "Explorer chaque dimensions du sondage et comprendre les réponses.",
+      "by_comparison": "Par comparaison",
+      "explore_by_comparison": "Mettre en regard des réponses comparables entre territoires."
+    }
+  },
+  "comparison_page": {
+    "label": "Mise en perspective",
+    "title": "Mettre les données en perspective",
+    "description": "Situez votre territoire, rapprochez des dimensions liées et identifiez les questions à approfondir.",
+    "section_title": "01 / Votre comparaison",
+    "section_description": "Choisissez vos territoires, vos thématiques et vos dimensions.",
+    "panel_a": "A) Point de départ",
+    "panel_b": "B) Mise en perspective",
+    "territory": "Territoire",
+    "theme": "Thématique",
+    "dimension": "Dimension",
+    "indicator": "Indicateur",
+    "select_territory": "Sélectionnez un territoire",
+    "select_theme": "Sélectionnez une thématique",
+    "select_dimension": "Sélectionnez une dimension",
+    "select_indicator": "Sélectionnez un indicateur",
+    "start_button": "Construire la comparaison",
+    "reset_button": "Réinitialiser les champs",
+    "help_text": "Commencez par la colonne de votre choix. Un seul territoire par colonne."
+  },
+  "comparison_result": {
+    "section_title": "02 / Lire et interpréter",
+    "section_description": "Votre comparaison se construira ici. Sélectionnez les deux indicateurs, puis cliquez sur « Construire la comparaison ».",
+    "note": "Maquette sans données : aucune valeur ni conclusion territoriale n'est simulée."
+  }
 }

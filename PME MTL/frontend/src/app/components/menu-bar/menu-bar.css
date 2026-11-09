@@ -59,6 +59,9 @@
 
 .menu-bar__item--compare {
   width: 6rem;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .menu-bar__item--methodology {

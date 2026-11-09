@@ -1,38 +1,62 @@
 {
-    "commun": {
-        "menu_bar": {
-            "territory": "Territories",
-            "thematic": "Themes",
-            "compare": "Compare",
-            "methodology": "Method",
-            "east_perspective": "THE EAST IN PERSPECTIVE"
-        },
-        "return": "Back",
-        "open": "Open",
-        "bottom_part": {
-            "initiative": "An initiative of PME MTL EST-de-l'Île",
-            "how_to_read_data": "How to read this data"
-        }
+  "commun": {
+    "menu_bar": {
+      "territory": "Territories",
+      "thematic": "Themes",
+      "compare": "Compare",
+      "methodology": "Method",
+      "east_perspective": "THE EAST IN PERSPECTIVE"
     },
-    "home_page": {
-        "main": {
-            "observatory_of_dynamics": "OBSERVATORY OF SOCIO-ECONOMIC DYNAMICS",
-            "understand_dynamics_title": "Understanding the socio-economic dynamics of East Montreal",
-            "five_territories_titles": "Five territories. Seven themes. Perspectives to enlighten your decisions.",
-            "explore_territories": "Explore the territories",
-            "explore_thematics": "Explore a theme",
-            "scroll_to_explore": "Scroll to explore the East"
-        },
-        "angles_section": {
-            "explore": "Explore",
-            "title": "A territory is better understood from several angles.",
-            "sub_title": "Move from the overall picture to the dimensions that interest you.",
-            "by_territory": "By territory",
-            "explore_by_territory": "Identify assets, issues, and gaps across the five territories",
-            "by_thematic": "By theme",
-            "explore_by_thematic": "Explore each survey dimension and understand the responses.",
-            "by_comparison": "By comparison",
-            "explore_by_comparison": "Compare relevant responses across territories."
-        }
+    "return": "Back",
+    "open": "Open",
+    "bottom_part": {
+      "initiative": "An initiative of PME MTL EST-de-l'Île",
+      "how_to_read_data": "How to read this data"
     }
+  },
+  "home_page": {
+    "main": {
+      "observatory_of_dynamics": "OBSERVATORY OF SOCIO-ECONOMIC DYNAMICS",
+      "understand_dynamics_title": "Understanding the socio-economic dynamics of East Montreal",
+      "five_territories_titles": "Five territories. Seven themes. Perspectives to enlighten your decisions.",
+      "explore_territories": "Explore the territories",
+      "explore_thematics": "Explore a theme",
+      "scroll_to_explore": "Scroll to explore the East"
+    },
+    "angles_section": {
+      "explore": "Explore",
+      "title": "A territory is better understood from several angles.",
+      "sub_title": "Move from the overall picture to the dimensions that interest you.",
+      "by_territory": "By territory",
+      "explore_by_territory": "Identify assets, issues, and gaps across the five territories",
+      "by_thematic": "By theme",
+      "explore_by_thematic": "Explore each survey dimension and understand the responses.",
+      "by_comparison": "By comparison",
+      "explore_by_comparison": "Compare relevant responses across territories."
+    }
+  },
+  "comparison_page": {
+    "label": "Putting Data into Perspective",
+    "title": "Put Data into Perspective",
+    "description": "Position your territory, explore related dimensions, and identify questions for further investigation.",
+    "section_title": "01 / Your Comparison",
+    "section_description": "Select your territories, themes, and dimensions.",
+    "panel_a": "A) Starting Point",
+    "panel_b": "B) Putting into Perspective",
+    "territory": "Territory",
+    "theme": "Theme",
+    "dimension": "Dimension",
+    "indicator": "Indicator",
+    "select_territory": "Select a territory",
+    "select_theme": "Select a theme",
+    "select_dimension": "Select a dimension",
+    "select_indicator": "Select an indicator",
+    "start_button": "Build Comparison",
+    "reset_button": "Reset Fields"
+  },
+  "comparison_result": {
+    "section_title": "02 / Read and interpret",
+    "section_description": "Your comparison will appear here. Select the two indicators, then click « Build comparison ».",
+    "note": "Mockup without data: no values or territorial conclusions are simulated."
+  }
 }
