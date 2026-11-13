@@ -1,15 +1,11 @@
 <main class="home">
-  <section class="home__section" aria-label="Navigation principale">
-    <app-menu-bar />
-  </section>
-
   <section class="home__section home__section--map" aria-labelledby="main-section">
     <h4 class="first_title_map">{{ 'home_page.main.observatory_of_dynamics' | transloco }}</h4>
     <h1 class="big_title_map">{{ 'home_page.main.understand_dynamics_title' | transloco }}</h1>
     <h4 class="subtitle_map">{{ 'home_page.main.five_territories_titles' | transloco }}</h4>
 
     <div class="home__map-actions">
-      <button class="home__map-button home__map-button--primary" type="button">
+      <button class="home__map-button home__map-button--primary" type="button" routerLink="/territories">
         {{ 'home_page.main.explore_territories' | transloco }} ↓
       </button>
       <button class="home__map-button home__map-button--secondary" type="button">
@@ -69,10 +65,6 @@
       <p>{{ 'commun.bottom_part.initiative' | transloco }}</p>
       <img src="assets/images/logo.png" alt="Logo PME MTL" />
     </div>
-    <hr class="home__footer-divider" />
   </section>
 
-  <section class="home__section home__section--bottom-bar" aria-label="Pied de page">
-    <app-bottom-bar />
-  </section>
 </main>

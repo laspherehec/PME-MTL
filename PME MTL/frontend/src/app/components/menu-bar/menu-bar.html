@@ -5,7 +5,9 @@
   </div>
 
   <nav class="menu-bar__items" aria-label="Menu principal">
-    <span class="menu-bar__item menu-bar__item--territory">{{ 'commun.menu_bar.territory' | transloco }}</span>
+    <a class="menu-bar__item menu-bar__item--territory" routerLink="/territories">
+      {{ 'commun.menu_bar.territory' | transloco }}
+    </a>
     <span class="menu-bar__item menu-bar__item--thematic">{{ 'commun.menu_bar.thematic' | transloco }}</span>
     <span class="menu-bar__item menu-bar__item--compare">{{ 'commun.menu_bar.compare' | transloco }}</span>
     <span class="menu-bar__item menu-bar__item--methodology">{{ 'commun.menu_bar.methodology' | transloco }}</span>

@@ -188,17 +188,6 @@
   object-fit: contain;
 }
 
-.home__footer-divider {
-  width: 92%;
-  margin: 2rem auto 0;
-  border: 0;
-  border-top: 1px solid #d8dee8;
-}
-
-.home__section--bottom-bar {
-  padding: 0 clamp(1.5rem, 4vw, 3rem) clamp(4rem, 8vh, 6rem);
-}
-
 @media (max-width: 760px) {
   .home__angle-cards {
     grid-template-columns: 1fr;
