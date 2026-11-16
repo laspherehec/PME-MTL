@@ -1,0 +1,914 @@
+[
+  {
+    "theme_id": "T1",
+    "theme_label": "Coordination territoriale",
+    "dimensions": [
+      {
+        "dimension_id": "D1",
+        "dimension_label": "Influence et codécision",
+        "indicators": [
+          {
+            "indicator_id": "IND01",
+            "indicator_label": "Priorités prises en compte"
+          },
+          {
+            "indicator_id": "IND02",
+            "indicator_label": "Solutions conçues ensemble"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D2",
+        "dimension_label": "Clarté et alignement",
+        "indicators": [
+          {
+            "indicator_id": "IND03",
+            "indicator_label": "Compréhension de son propre rôle"
+          },
+          {
+            "indicator_id": "IND04",
+            "indicator_label": "Compréhension du rôle des partenaires"
+          },
+          {
+            "indicator_id": "IND05",
+            "indicator_label": "Avancées des tables de concertation"
+          },
+          {
+            "indicator_id": "IND06",
+            "indicator_label": "Vision et objectifs partagés"
+          },
+          {
+            "indicator_id": "IND07",
+            "indicator_label": "Coordination des interventions"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D3",
+        "dimension_label": "Autonomie et tensions",
+        "indicators": [
+          {
+            "indicator_id": "IND08",
+            "indicator_label": "Conflit avec les priorités locales"
+          },
+          {
+            "indicator_id": "IND09",
+            "indicator_label": "Agilité et autonomie restreintes"
+          },
+          {
+            "indicator_id": "IND10",
+            "indicator_label": "Équilibre local / régional"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D4",
+        "dimension_label": "Synergie et réciprocité",
+        "indicators": [
+          {
+            "indicator_id": "IND11",
+            "indicator_label": "Mise en commun des ressources"
+          },
+          {
+            "indicator_id": "IND12",
+            "indicator_label": "Partage d'informations stratégiques"
+          },
+          {
+            "indicator_id": "IND13",
+            "indicator_label": "Reconnaissance des contributions"
+          },
+          {
+            "indicator_id": "IND14",
+            "indicator_label": "Efficacité de l'action collective"
+          },
+          {
+            "indicator_id": "IND15",
+            "indicator_label": "Recherche de solutions gagnant-gagnant"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D5",
+        "dimension_label": "Confiance et engagement",
+        "indicators": [
+          {
+            "indicator_id": "IND16",
+            "indicator_label": "Transparence et confiance"
+          },
+          {
+            "indicator_id": "IND17",
+            "indicator_label": "Respect des engagements"
+          },
+          {
+            "indicator_id": "IND18",
+            "indicator_label": "Engagement régional à long terme"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D6",
+        "dimension_label": "Infrastructures",
+        "indicators": [
+          {
+            "indicator_id": "IND19",
+            "indicator_label": "Télécommunications "
+          },
+          {
+            "indicator_id": "IND20",
+            "indicator_label": "Transport de marchandises et logistique"
+          },
+          {
+            "indicator_id": "IND21",
+            "indicator_label": "Teansport collectif des travailleurs"
+          },
+          {
+            "indicator_id": "IND22",
+            "indicator_label": "Énergie"
+          },
+          {
+            "indicator_id": "IND23",
+            "indicator_label": "Disponibilité des immeubles"
+          },
+          {
+            "indicator_id": "IND24",
+            "indicator_label": "Disponibilité des terrains"
+          },
+          {
+            "indicator_id": "IND25",
+            "indicator_label": "Services aux entreprises"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D7",
+        "dimension_label": "Soutien enrepreneurial",
+        "indicators": [
+          {
+            "indicator_id": "IND26",
+            "indicator_label": "Regroupements et réseaux d'affaires"
+          },
+          {
+            "indicator_id": "IND27",
+            "indicator_label": "Soutien des incubateurs e orgnaismes"
+          },
+          {
+            "indicator_id": "IND28",
+            "indicator_label": "Ressources pour la croissance"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D8",
+        "dimension_label": "Services professionnels ",
+        "indicators": [
+          {
+            "indicator_id": "IND29",
+            "indicator_label": "Services juridiques"
+          },
+          {
+            "indicator_id": "IND30",
+            "indicator_label": "Comptabilité et fiscalité"
+          },
+          {
+            "indicator_id": "IND31",
+            "indicator_label": "Services en ressources humaines"
+          },
+          {
+            "indicator_id": "IND32",
+            "indicator_label": "Technologies et transformation numérique"
+          },
+          {
+            "indicator_id": "IND33",
+            "indicator_label": "Financement et stratégie d'affaires"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D9",
+        "dimension_label": "Mobilité : expérience des usagers",
+        "indicators": [
+          {
+            "indicator_id": "IND34",
+            "indicator_label": "Desserte des zones d'activités"
+          },
+          {
+            "indicator_id": "IND35",
+            "indicator_label": "Accès à la station ou à l'arrêt"
+          },
+          {
+            "indicator_id": "IND36",
+            "indicator_label": "Sécurité de l'accès piéton"
+          },
+          {
+            "indicator_id": "IND37",
+            "indicator_label": "Ponctualité"
+          },
+          {
+            "indicator_id": "IND38",
+            "indicator_label": "Fréquence de service"
+          },
+          {
+            "indicator_id": "IND39",
+            "indicator_label": "Temps de trajet"
+          },
+          {
+            "indicator_id": "IND40",
+            "indicator_label": "Correspondances"
+          },
+          {
+            "indicator_id": "IND41",
+            "indicator_label": "Information en temps réel"
+          },
+          {
+            "indicator_id": "IND42",
+            "indicator_label": "Espace dans les véhicules"
+          },
+          {
+            "indicator_id": "IND43",
+            "indicator_label": "État et propreté du réseau"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D10",
+        "dimension_label": "Mobilité : lecture institutionnelle",
+        "indicators": [
+          {
+            "indicator_id": "IND44",
+            "indicator_label": "Horaires et fréquence (version synthèse)"
+          },
+          {
+            "indicator_id": "IND45",
+            "indicator_label": "Desserte (version synthèse)"
+          },
+          {
+            "indicator_id": "IND46",
+            "indicator_label": "Performance (version synthèse)"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D11",
+        "dimension_label": "Disponibilité et accès aux ressources",
+        "indicators": [
+          {
+            "indicator_id": "IND47",
+            "indicator_label": "Disponibilté des ressources"
+          },
+          {
+            "indicator_id": "IND48",
+            "indicator_label": "Répartition géographique des ressources"
+          },
+          {
+            "indicator_id": "IND49",
+            "indicator_label": "Qualité des ressources"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D12",
+        "dimension_label": "Intention de départ",
+        "indicators": [
+          {
+            "indicator_id": "IND50",
+            "indicator_label": "Trois situations, une seule réponse"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D13",
+        "dimension_label": "Raisons de départ",
+        "indicators": [
+          {
+            "indicator_id": "IND51",
+            "indicator_label": "Fragmentation réglementaire"
+          },
+          {
+            "indicator_id": "IND52",
+            "indicator_label": "Délais administratifs"
+          },
+          {
+            "indicator_id": "IND53",
+            "indicator_label": "Manque de locaux"
+          },
+          {
+            "indicator_id": "IND54",
+            "indicator_label": "Rareté et coût des terrains"
+          },
+          {
+            "indicator_id": "IND55",
+            "indicator_label": "Fiabilité des infrastructures"
+          },
+          {
+            "indicator_id": "IND56",
+            "indicator_label": "Congestion et logistique"
+          },
+          {
+            "indicator_id": "IND57",
+            "indicator_label": "Transport collectif des employés "
+          },
+          {
+            "indicator_id": "IND58",
+            "indicator_label": "Recrutement et rétention"
+          },
+          {
+            "indicator_id": "IND59",
+            "indicator_label": "Proximité des clients ou partenaires"
+          },
+          {
+            "indicator_id": "IND60",
+            "indicator_label": "Taxes municipales"
+          },
+          {
+            "indicator_id": "IND61",
+            "indicator_label": "Coût d'exploitation"
+          },
+          {
+            "indicator_id": "IND62",
+            "indicator_label": "Sécurité et propreté"
+          },
+          {
+            "indicator_id": "IND63",
+            "indicator_label": "Cohabitation industrielle / résidentielle"
+          },
+          {
+            "indicator_id": "IND64",
+            "indicator_label": "Incitatifs offerts ailleurs"
+          },
+          {
+            "indicator_id": "IND65",
+            "indicator_label": "Autres raisons"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme_id": "T2",
+    "theme_label": "Coopération et concurrence",
+    "dimensions": [
+      {
+        "dimension_id": "D14",
+        "dimension_label": "Relations avec les intitutions et partenaires",
+        "indicators": [
+          {
+            "indicator_id": "IND66",
+            "indicator_label": "Institutions du même territoire"
+          },
+          {
+            "indicator_id": "IND67",
+            "indicator_label": "Institutions d'autres territoires"
+          },
+          {
+            "indicator_id": "IND68",
+            "indicator_label": "Chambres et regroupements d'affaires"
+          },
+          {
+            "indicator_id": "IND69",
+            "indicator_label": "Expert privés"
+          },
+          {
+            "indicator_id": "IND70",
+            "indicator_label": "Structures d'accompagnement"
+          },
+          {
+            "indicator_id": "IND71",
+            "indicator_label": "Transfert technologique et innovation"
+          },
+          {
+            "indicator_id": "IND72",
+            "indicator_label": "Universités et recherche"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D15",
+        "dimension_label": "Relations entre entreprises",
+        "indicators": [
+          {
+            "indicator_id": "IND73",
+            "indicator_label": "Entreprises du même secteur"
+          },
+          {
+            "indicator_id": "IND74",
+            "indicator_label": "Entreprises d'autres secteurs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme_id": "T3",
+    "theme_label": "Transition écologique et économie circulaire",
+    "dimensions": [
+      {
+        "dimension_id": "D16",
+        "dimension_label": "Priorités de développement durable",
+        "indicators": [
+          {
+            "indicator_id": "IND75",
+            "indicator_label": "Achats et approvisionnement"
+          },
+          {
+            "indicator_id": "IND76",
+            "indicator_label": "Matières premières et résiduelles"
+          },
+          {
+            "indicator_id": "IND77",
+            "indicator_label": "Énergie et eau"
+          },
+          {
+            "indicator_id": "IND78",
+            "indicator_label": "Émissions de GES"
+          },
+          {
+            "indicator_id": "IND79",
+            "indicator_label": "Autres pollutions"
+          },
+          {
+            "indicator_id": "IND80",
+            "indicator_label": "Développement local"
+          },
+          {
+            "indicator_id": "IND81",
+            "indicator_label": "Éthique des affaires"
+          },
+          {
+            "indicator_id": "IND82",
+            "indicator_label": "Biens et services écoresponsables"
+          },
+          {
+            "indicator_id": "IND83",
+            "indicator_label": "Conditions de travail"
+          },
+          {
+            "indicator_id": "IND84",
+            "indicator_label": "Équité, diversité et inclusion"
+          },
+          {
+            "indicator_id": "IND85",
+            "indicator_label": "Développement des compétences"
+          },
+          {
+            "indicator_id": "IND86",
+            "indicator_label": "Participation et relations de travail"
+          },
+          {
+            "indicator_id": "IND87",
+            "indicator_label": "Santé et sécurité au travail"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D17",
+        "dimension_label": "Pratiques de développement durable",
+        "indicators": [
+          {
+            "indicator_id": "IND88",
+            "indicator_label": "Achats et approvisionnement"
+          },
+          {
+            "indicator_id": "IND89",
+            "indicator_label": "Matières premières et résiduelles"
+          },
+          {
+            "indicator_id": "IND90",
+            "indicator_label": "Énergie et eau"
+          },
+          {
+            "indicator_id": "IND91",
+            "indicator_label": "Émissions de GES"
+          },
+          {
+            "indicator_id": "IND92",
+            "indicator_label": "Autres pollutions"
+          },
+          {
+            "indicator_id": "IND93",
+            "indicator_label": "Développement local"
+          },
+          {
+            "indicator_id": "IND94",
+            "indicator_label": "Éthique des affaires"
+          },
+          {
+            "indicator_id": "IND95",
+            "indicator_label": "Biens et services écoresponsables"
+          },
+          {
+            "indicator_id": "IND96",
+            "indicator_label": "Conditions de travail"
+          },
+          {
+            "indicator_id": "IND97",
+            "indicator_label": "Équité, diversité et inclusion"
+          },
+          {
+            "indicator_id": "IND98",
+            "indicator_label": "Développement des compétences"
+          },
+          {
+            "indicator_id": "IND99",
+            "indicator_label": "Participation et relations de travail"
+          },
+          {
+            "indicator_id": "IND100",
+            "indicator_label": "Santé et sécurité au travail"
+          },
+          {
+            "indicator_id": "IND101",
+            "indicator_label": "Santé et sécurité au travail"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D18",
+        "dimension_label": "Familiarité avec l'économie circulaire",
+        "indicators": [
+          {
+            "indicator_id": "IND102",
+            "indicator_label": "Connaissance du concept"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D19",
+        "dimension_label": "Motivations pour l'économie circulaire",
+        "indicators": [
+          {
+            "indicator_id": "IND103",
+            "indicator_label": "Réduire les coûts "
+          },
+          {
+            "indicator_id": "IND104",
+            "indicator_label": "Saisir une opportunité de marché"
+          },
+          {
+            "indicator_id": "IND105",
+            "indicator_label": "Améliorer l'impact environnemental"
+          },
+          {
+            "indicator_id": "IND106",
+            "indicator_label": "Sécuriser les matières premières"
+          },
+          {
+            "indicator_id": "IND107",
+            "indicator_label": "Améliorer la rentabilité"
+          },
+          {
+            "indicator_id": "IND108",
+            "indicator_label": "Développer les compétences"
+          },
+          {
+            "indicator_id": "IND109",
+            "indicator_label": "Répondre aux pressions externes"
+          },
+          {
+            "indicator_id": "IND110",
+            "indicator_label": "Accéder à de nouveaux marchés"
+          },
+          {
+            "indicator_id": "IND111",
+            "indicator_label": "Construire un modèle résilient"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme_id": "T4",
+    "theme_label": "Attractivité",
+    "dimensions": [
+      {
+        "dimension_id": "D20",
+        "dimension_label": "Accessibilité et connectivité",
+        "indicators": [
+          {
+            "indicator_id": "IND112",
+            "indicator_label": "Transport et logistique"
+          },
+          {
+            "indicator_id": "IND113",
+            "indicator_label": "Télécommunications"
+          },
+          {
+            "indicator_id": "IND114",
+            "indicator_label": "Transport collectif"
+          },
+          {
+            "indicator_id": "IND115",
+            "indicator_label": "Accès routier"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D21",
+        "dimension_label": "Gouvernance et soutien",
+        "indicators": [
+          {
+            "indicator_id": "IND116",
+            "indicator_label": "Soutien à l'entrepreneuriat"
+          },
+          {
+            "indicator_id": "IND117",
+            "indicator_label": "Processus réglementaires"
+          },
+          {
+            "indicator_id": "IND118",
+            "indicator_label": "Vision du développement économique"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D22",
+        "dimension_label": "Ressources et coûts",
+        "indicators": [
+          {
+            "indicator_id": "IND119",
+            "indicator_label": "Coûts immobiliers"
+          },
+          {
+            "indicator_id": "IND120",
+            "indicator_label": "Financement et incitatifs"
+          },
+          {
+            "indicator_id": "IND121",
+            "indicator_label": "Locaux adaptés"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D23",
+        "dimension_label": "Talents et marché local",
+        "indicators": [
+          {
+            "indicator_id": "IND122",
+            "indicator_label": "Accès au talents"
+          },
+          {
+            "indicator_id": "IND123",
+            "indicator_label": "Clients, fournisseurs et partenaires"
+          },
+          {
+            "indicator_id": "IND124",
+            "indicator_label": "Dynamisme du marché "
+          }
+        ]
+      },
+      {
+        "dimension_id": "D24",
+        "dimension_label": "Écologie et attractivité",
+        "indicators": [
+          {
+            "indicator_id": "IND125",
+            "indicator_label": "Initiatives écologiques distinctives"
+          },
+          {
+            "indicator_id": "IND126",
+            "indicator_label": "Opportunités liées à la transition"
+          },
+          {
+            "indicator_id": "IND127",
+            "indicator_label": "Positionnement durable"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D25",
+        "dimension_label": "Réseaux et services d'affaires",
+        "indicators": [
+          {
+            "indicator_id": "IND128",
+            "indicator_label": "Réseau de collaboration"
+          },
+          {
+            "indicator_id": "IND129",
+            "indicator_label": "Services professionnels"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D26",
+        "dimension_label": "Qualité de vie",
+        "indicators": [
+          {
+            "indicator_id": "IND130",
+            "indicator_label": "Espaces verts et nature"
+          },
+          {
+            "indicator_id": "IND131",
+            "indicator_label": "Services de proximité"
+          },
+          {
+            "indicator_id": "IND132",
+            "indicator_label": "Vie de quartier"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D27",
+        "dimension_label": "Intention de création",
+        "indicators": [
+          {
+            "indicator_id": "IND133",
+            "indicator_label": "Intention de créer"
+          },
+          {
+            "indicator_id": "IND134",
+            "indicator_label": "Premier choix à 12 mois"
+          },
+          {
+            "indicator_id": "IND135",
+            "indicator_label": "Démarches concrètes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme_id": "T5",
+    "theme_label": "Intelligence artificielle",
+    "dimensions": [
+      {
+        "dimension_id": "D28",
+        "dimension_label": "Intérêt et perception de l'IA",
+        "indicators": [
+          {
+            "indicator_id": "IND136",
+            "indicator_label": "Adoption envisagée"
+          },
+          {
+            "indicator_id": "IND137",
+            "indicator_label": "Connaissance des usages sectoriels"
+          },
+          {
+            "indicator_id": "IND138",
+            "indicator_label": "Impact de l'IA dans le secteur"
+          },
+          {
+            "indicator_id": "IND139",
+            "indicator_label": "Vision positive dans le secteur"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D29",
+        "dimension_label": "Ressources et préparation à l'IA",
+        "indicators": [
+          {
+            "indicator_id": "IND140",
+            "indicator_label": "Ressources pour créer des applications"
+          },
+          {
+            "indicator_id": "IND141",
+            "indicator_label": "Ressources disponibles à temps"
+          },
+          {
+            "indicator_id": "IND142",
+            "indicator_label": "Expertise et accompagnement"
+          },
+          {
+            "indicator_id": "IND143",
+            "indicator_label": "Suivi des applications"
+          },
+          {
+            "indicator_id": "IND144",
+            "indicator_label": "Pilotage centralisé"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D30",
+        "dimension_label": "Leadership et stratégie IA",
+        "indicators": [
+          {
+            "indicator_id": "IND145",
+            "indicator_label": "Acceptation des risques"
+          },
+          {
+            "indicator_id": "IND146",
+            "indicator_label": "Informatique comme compétence stratégique"
+          },
+          {
+            "indicator_id": "IND147",
+            "indicator_label": "Vision d'utilisation de l'IA"
+          },
+          {
+            "indicator_id": "IND148",
+            "indicator_label": "Compétitivité atendue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme_id": "T6",
+    "theme_label": "Innovation",
+    "dimensions": [
+      {
+        "dimension_id": "D31",
+        "dimension_label": "Formes d'innovation",
+        "indicators": [
+          {
+            "indicator_id": "IND149",
+            "indicator_label": "Produits"
+          },
+          {
+            "indicator_id": "IND150",
+            "indicator_label": "Services"
+          },
+          {
+            "indicator_id": "IND151",
+            "indicator_label": "Production et prestation de services"
+          },
+          {
+            "indicator_id": "IND152",
+            "indicator_label": "Distribution et logistique"
+          },
+          {
+            "indicator_id": "IND153",
+            "indicator_label": "Marketing, vente et relation client"
+          },
+          {
+            "indicator_id": "IND154",
+            "indicator_label": "Systèmes d'information et communication"
+          },
+          {
+            "indicator_id": "IND155",
+            "indicator_label": "Gestion et organisationn du travail"
+          },
+          {
+            "indicator_id": "IND156",
+            "indicator_label": "Méthodes de développement"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D32",
+        "dimension_label": "Retour estimé des innovations",
+        "indicators": [
+          {
+            "indicator_id": "IND157",
+            "indicator_label": "Retour sur investissement déclaré"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "theme_id": "T7",
+    "theme_label": "Performance",
+    "dimensions": [
+      {
+        "dimension_id": "D33",
+        "dimension_label": "Performance globale",
+        "indicators": [
+          {
+            "indicator_id": "IND158",
+            "indicator_label": "Performance globale"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D34",
+        "dimension_label": "Part de marché",
+        "indicators": [
+          {
+            "indicator_id": "IND159",
+            "indicator_label": "Part de marché"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D35",
+        "dimension_label": "Croissance",
+        "indicators": [
+          {
+            "indicator_id": "IND160",
+            "indicator_label": "Croissance"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D36",
+        "dimension_label": "Rentabilité",
+        "indicators": [
+          {
+            "indicator_id": "IND161",
+            "indicator_label": "Rentabilité"
+          }
+        ]
+      },
+      {
+        "dimension_id": "D37",
+        "dimension_label": "Innovation perçue",
+        "indicators": [
+          {
+            "indicator_id": "IND162",
+            "indicator_label": "Innovation"
+          }
+        ]
+      }
+    ]
+  }
+]

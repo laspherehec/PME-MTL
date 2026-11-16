@@ -1,0 +1,43 @@
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+.comparison-tool {
+  width: 100%;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.comparison-tool__header {
+  margin-bottom: 2rem;
+}
+
+.comparison-tool__label {
+  display: block;
+  margin-bottom: 1.25rem;
+  color: #596278;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.comparison-tool__title {
+  margin: 0 0 1.25rem;
+  color: var(--couleur-titres, #05325a);
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.comparison-tool__description {
+  margin: 0;
+  color: #666769;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+

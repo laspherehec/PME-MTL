@@ -40,44 +40,68 @@
         "explore_east": "EXPLORER L'EST",
         "question_title": "Quel territoire souhaitez-vous comprendre?",
         "open_portrait": "Ouvrez un portrait pour repérer ses signaux clés, puis approfondissez une thématique.",
-        "see_portrait":"Voir le portrait",
-        "in_turquoise":"En turquoise, les cinq territoires étudiés.",
-        "explore_by_thematic":"Explorer par thématique",
-        "compare_territories":"Comparer les territoires"
-
+        "see_portrait": "Voir le portrait",
+        "in_turquoise": "En turquoise, les cinq territoires étudiés.",
+        "explore_by_thematic": "Explorer par thématique",
+        "compare_territories": "Comparer les territoires"
     },
-    "territory_page":{
-        "intro":{
-        "essential_signs":"Les signaux essentiels de votre territoire, puis toutes les données pour approfondir.",
-        "compare_this_territory":"Comparer ce territoire",
-        "change_territory":"Changer de territoire",
-        "theme":"Thématique",
-        "respondents":"Répondants",
-        "positionning_by_indicator":"Positionnement par indicateur",
-        "seven_angles":"Sept angles de lecture",
-        "same_question":"Même question, même profil, quatre écarts en points"},
-        "dashboard":{
-            "your_dashboard":"Votre tableau de bord",
-            "description_general":"Chaque aperçu présente une question précise, un indicateur et quatre écarts comparables. TODO VOIR SI CEST LE BON TEXTE",
-            "base":"Base: propriétaires d'entreprise",
+    "territory_page": {
+        "intro": {
+            "essential_signs": "Les signaux essentiels de votre territoire, puis toutes les données pour approfondir.",
+            "compare_this_territory": "Comparer ce territoire",
+            "change_territory": "Changer de territoire",
+            "theme": "Thématique",
+            "respondents": "Répondants",
+            "positionning_by_indicator": "Positionnement par indicateur",
+            "seven_angles": "Sept angles de lecture",
+            "same_question": "Même question, même profil, quatre écarts en points"
+        },
+        "dashboard": {
+            "your_dashboard": "Votre tableau de bord",
+            "description_general": "Chaque aperçu présente une question précise, un indicateur et quatre écarts comparables. TODO VOIR SI CEST LE BON TEXTE",
+            "base": "Base: propriétaires d'entreprise",
             "base_2": "réponses valides",
-            "gap":"Écart",
-            "share":"Part",
-            "territorial_coordination":{
-                "title":"Coordonitation territoriale",
-                "question":"Qu'est-ce qui facilite l'activité et la coordination?",
-                "subtitle":"Télécommunications jugées suffisantes",
-                "description_of_percentage":"% de réponses 4-5 à la question sur les télécommunications",
-                "infrastructure_agree":"Infrastructure - part d'accord (4-5) - échelle 0-100%",
-                "telecommunications":"Télécommunications",
-                "Logistics_merchandise_transport":"Logistique et transport de marchandises",
-                "public_transport":"Transport collectif",
-                "compare_precise_levers":"Comparer des leviers précis: les trois barres représentent trois questions distinctes",
-                "gap_with_territories":"Écart avec les quatre autres territoires",
-                "reference_territory":"Territoire de référence",
-                "positive_gap_explanation":"Un écart positif indique une part plus élevée. Il ne démontre pas une différence significative.",
-
+            "gap": "Écart",
+            "share": "Part",
+            "territorial_coordination": {
+                "title": "Coordonitation territoriale",
+                "question": "Qu'est-ce qui facilite l'activité et la coordination?",
+                "subtitle": "Télécommunications jugées suffisantes",
+                "description_of_percentage": "% de réponses 4-5 à la question sur les télécommunications",
+                "infrastructure_agree": "Infrastructure - part d'accord (4-5) - échelle 0-100%",
+                "telecommunications": "Télécommunications",
+                "Logistics_merchandise_transport": "Logistique et transport de marchandises",
+                "public_transport": "Transport collectif",
+                "compare_precise_levers": "Comparer des leviers précis: les trois barres représentent trois questions distinctes",
+                "gap_with_territories": "Écart avec les quatre autres territoires",
+                "reference_territory": "Territoire de référence",
+                "positive_gap_explanation": "Un écart positif indique une part plus élevée. Il ne démontre pas une différence significative."
             }
         }
+    },
+    "comparison_page": {
+        "label": "Mise en perspective",
+        "title": "Mettre les données en perspective",
+        "description": "Situez votre territoire, rapprochez des dimensions liées et identifiez les questions à approfondir.",
+        "section_title": "01 / Votre comparaison",
+        "section_description": "Choisissez vos territoires, vos thématiques et vos dimensions.",
+        "panel_a": "A) Point de départ",
+        "panel_b": "B) Mise en perspective",
+        "territory": "Territoire",
+        "theme": "Thématique",
+        "dimension": "Dimension",
+        "indicator": "Indicateur",
+        "select_territory": "Sélectionnez un territoire",
+        "select_theme": "Sélectionnez une thématique",
+        "select_dimension": "Sélectionnez une dimension",
+        "select_indicator": "Sélectionnez un indicateur",
+        "start_button": "Construire la comparaison",
+        "reset_button": "Réinitialiser les champs",
+        "help_text": "Commencez par la colonne de votre choix. Un seul territoire par colonne."
+    },
+    "comparison_result": {
+        "section_title": "02 / Lire et interpréter",
+        "section_description": "Votre comparaison se construira ici. Sélectionnez les deux indicateurs, puis cliquez sur « Construire la comparaison ».",
+        "note": "Maquette sans données : aucune valeur ni conclusion territoriale n'est simulée."
     }
 }

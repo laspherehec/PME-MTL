@@ -1,0 +1,236 @@
+ <!-- Section 01 Votre comparaison -->
+  <section class="comparison-section">
+
+    <div class="comparison-section__header">
+
+      <h2>
+        {{ 'comparison_page.section_title' | transloco }}
+      </h2>
+
+      <p>
+        {{ 'comparison_page.section_description' | transloco }}
+      </p>
+
+    </div>
+    <div class="comparison-grid">
+
+      <!-- Panel A -->
+      <div class="comparison-panel">
+
+        <h3>
+          {{ 'comparison_page.panel_a' | transloco }}
+        </h3>
+
+        <div class="form-group">
+          <label for="territory-a">
+            {{ 'comparison_page.territory' | transloco }}
+          </label>
+
+          <select
+            id="territory-a"
+            [(ngModel)]="comparisonA.territory"
+          >
+            <option value="" disabled>
+              {{ 'comparison_page.select_territory' | transloco }}
+            </option>
+
+            <option
+              *ngFor="let territory of territories"
+              [value]="territory"
+            >
+              {{ territory }}
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="theme-a">
+            {{ 'comparison_page.theme' | transloco }}
+          </label>
+
+          <select
+            id="theme-a"
+            [(ngModel)]="comparisonA.theme"
+          >
+            <option value="" disabled>
+              {{ 'comparison_page.select_theme' | transloco }}
+            </option>
+
+            <option
+              *ngFor="let theme of themes"
+              [value]="theme"
+            >
+              {{ theme }}
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="dimension-a">
+            {{ 'comparison_page.dimension' | transloco }}
+          </label>
+
+          <select
+            id="dimension-a"
+            [(ngModel)]="comparisonA.dimension"
+          >
+            <option value="" disabled>
+              {{ 'comparison_page.select_dimension' | transloco }}
+            </option>
+
+            <option
+              *ngFor="let dimension of dimensions"
+              [value]="dimension"
+            >
+              {{ dimension }}
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="indicator-a">
+            {{ 'comparison_page.indicator' | transloco }}
+          </label>
+
+          <select
+            id="indicator-a"
+            [(ngModel)]="comparisonA.indicator"
+          >
+            <option value="" disabled>
+              {{ 'comparison_page.select_indicator' | transloco }}
+            </option>
+
+            <option
+              *ngFor="let indicator of indicators"
+              [value]="indicator"
+            >
+              {{ indicator }}
+            </option>
+          </select>
+        </div>
+
+      </div>
+
+      <!-- Pannel B -->
+      <div class="comparison-panel">
+
+        <h3>
+          {{ 'comparison_page.panel_b' | transloco }}
+        </h3>
+
+        <div class="form-group">
+          <label for="territory-b">
+            {{ 'comparison_page.territory' | transloco }}
+          </label>
+
+          <select
+            id="territory-b"
+            [(ngModel)]="comparisonB.territory"
+          >
+            <option value="" disabled>
+              {{ 'comparison_page.select_territory' | transloco }}
+            </option>
+
+            <option
+              *ngFor="let territory of territories"
+              [value]="territory"
+            >
+              {{ territory }}
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="theme-b">
+            {{ 'comparison_page.theme' | transloco }}
+          </label>
+
+          <select
+            id="theme-b"
+            [(ngModel)]="comparisonB.theme"
+          >
+            <option value="" disabled>
+              {{ 'comparison_page.select_theme' | transloco }}
+            </option>
+
+            <option
+              *ngFor="let theme of themes"
+              [value]="theme"
+            >
+              {{ theme }}
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="dimension-b">
+            {{ 'comparison_page.dimension' | transloco }}
+          </label>
+
+          <select
+            id="dimension-b"
+            [(ngModel)]="comparisonB.dimension"
+          >
+            <option value="" disabled>
+              {{ 'comparison_page.select_dimension' | transloco }}
+            </option>
+
+            <option
+              *ngFor="let dimension of dimensions"
+              [value]="dimension"
+            >
+              {{ dimension }}
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="indicator-b">
+            {{ 'comparison_page.indicator' | transloco }}
+          </label>
+
+          <select
+            id="indicator-b"
+            [(ngModel)]="comparisonB.indicator"
+          >
+            <option value="" disabled>
+              {{ 'comparison_page.select_indicator' | transloco }}
+            </option>
+
+            <option
+              *ngFor="let indicator of indicators"
+              [value]="indicator"
+            >
+              {{ indicator }}
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bouton -->
+    <div class="comparison-actions">
+
+      <p>
+        {{ 'comparison_page.help_text' | transloco }}
+      </p>
+
+      <button
+        type="button"
+        class="comparison-button"
+        (click)="launchComparison()"
+      >
+        {{ 'comparison_page.start_button' | transloco }}
+        <span aria-hidden="true"></span>
+      </button>
+
+       <button
+        type="button"
+        class="reset-button"
+        (click)="launchReset()"
+      >
+        {{ 'comparison_page.reset_button' | transloco }}
+        <span aria-hidden="true"></span>
+      </button>
+    </div>
+  </section>
