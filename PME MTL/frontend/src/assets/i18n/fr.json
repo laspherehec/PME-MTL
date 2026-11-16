@@ -45,5 +45,39 @@
         "explore_by_thematic":"Explorer par thématique",
         "compare_territories":"Comparer les territoires"
 
+    },
+    "territory_page":{
+        "intro":{
+        "essential_signs":"Les signaux essentiels de votre territoire, puis toutes les données pour approfondir.",
+        "compare_this_territory":"Comparer ce territoire",
+        "change_territory":"Changer de territoire",
+        "theme":"Thématique",
+        "respondents":"Répondants",
+        "positionning_by_indicator":"Positionnement par indicateur",
+        "seven_angles":"Sept angles de lecture",
+        "same_question":"Même question, même profil, quatre écarts en points"},
+        "dashboard":{
+            "your_dashboard":"Votre tableau de bord",
+            "description_general":"Chaque aperçu présente une question précise, un indicateur et quatre écarts comparables. TODO VOIR SI CEST LE BON TEXTE",
+            "base":"Base: propriétaires d'entreprise",
+            "base_2": "réponses valides",
+            "gap":"Écart",
+            "share":"Part",
+            "territorial_coordination":{
+                "title":"Coordonitation territoriale",
+                "question":"Qu'est-ce qui facilite l'activité et la coordination?",
+                "subtitle":"Télécommunications jugées suffisantes",
+                "description_of_percentage":"% de réponses 4-5 à la question sur les télécommunications",
+                "infrastructure_agree":"Infrastructure - part d'accord (4-5) - échelle 0-100%",
+                "telecommunications":"Télécommunications",
+                "Logistics_merchandise_transport":"Logistique et transport de marchandises",
+                "public_transport":"Transport collectif",
+                "compare_precise_levers":"Comparer des leviers précis: les trois barres représentent trois questions distinctes",
+                "gap_with_territories":"Écart avec les quatre autres territoires",
+                "reference_territory":"Territoire de référence",
+                "positive_gap_explanation":"Un écart positif indique une part plus élevée. Il ne démontre pas une différence significative.",
+
+            }
+        }
     }
 }
