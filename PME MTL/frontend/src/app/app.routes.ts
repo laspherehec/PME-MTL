@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
 import { Home } from './pages/home/home';
-import { TerritoriesPage } from './pages/territories-page/territories-page';
+import { ComparisonTool } from './pages/comparison-tool/comparison-tool';
 
 export const routes: Routes = [
-  { path: '', component: Home },
-  { path: 'territories', component: TerritoriesPage },
+    { path: '', component: Home },
+    { path: 'comparison-tool', component: ComparisonTool }
 ];

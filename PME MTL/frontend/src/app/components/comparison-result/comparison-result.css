@@ -1,0 +1,46 @@
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+.comparison-results {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #d8dee8;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.comparison-results h2 {
+  margin: 0 0 1rem;
+  color: var(--couleur-titres, #05325a);
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  font-weight: 700;
+}
+
+.comparison-results p {
+  margin: 0;
+  color: #666769;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.comparison-results__note {
+  margin-top: 1rem !important;
+  color: #8b97a7 !important;
+  font-size: 0.75rem !important;
+}
+
+.comparison-results__selection {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+.comparison-results__selection p + p {
+  margin-top: 0.5rem;
+}
