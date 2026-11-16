@@ -34,5 +34,15 @@
             "by_comparison": "By comparison",
             "explore_by_comparison": "Compare relevant responses across territories."
         }
+    },
+     "territories_page": {
+        "explore_east": "EXPLORE THE EAST",
+        "question_title": "Which territory would you like to understand?",
+        "open_portrait": "Open a portrait to identify its key signals, then delve into a theme.",
+        "see_portrait":"See the portrait",
+        "in_turquoise":"In turquoise, the five studied territories.",
+        "explore_by_thematic":"Explore by theme",
+        "compare_territories":"Compare territories"
+
     }
 }

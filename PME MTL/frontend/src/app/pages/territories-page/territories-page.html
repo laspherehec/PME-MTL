@@ -1,0 +1,35 @@
+<main class="territories-page">
+  <section class="territories-page__intro" aria-labelledby="territories-title">
+    <p class="territories-page__eyebrow">{{ 'territories_page.explore_east' | transloco }}</p>
+    <h1 id="territories-title">{{ 'territories_page.question_title' | transloco }}</h1>
+    <p class="territories-page__description">{{ 'territories_page.open_portrait' | transloco }}</p>
+
+    <img
+      class="territories-page__map"
+      src="assets/images/map_canada_temp.png"
+      [alt]="'territories_page.map_alt' | transloco"
+    />
+    <p class="territories-page__map-caption">{{ 'territories_page.in_turquoise' | transloco }}</p>
+  </section>
+
+  <section class="territories-page__list" [attr.aria-label]="'territories_page.question_title' | transloco">
+    @for (territory of territories; track territory; let index = $index) {
+      <article class="territories-page__territory">
+        <span class="territories-page__number">{{ (index + 1).toString().padStart(2, '0') }}</span>
+        <h2 class="territories-page__name">{{ territory }}</h2>
+        <button class="territories-page__portrait-button" type="button">
+          {{ 'territories_page.see_portrait' | transloco }}
+        </button>
+      </article>
+    }
+  </section>
+
+  <nav class="territories-page__actions" aria-label="Actions">
+    <button class="territories-page__action" type="button">
+      {{ 'territories_page.explore_by_thematic' | transloco }}
+    </button>
+    <button class="territories-page__action" type="button">
+      {{ 'territories_page.compare_territories' | transloco }}
+    </button>
+  </nav>
+</main>
