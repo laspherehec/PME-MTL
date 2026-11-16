@@ -1,1 +1,81 @@
-<p>data-lecture-page works!</p>
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data-lecture-page</title>
+  </head>
+
+ <body>
+   <header class="nav">
+
+  <a href="#" class="nav__identite">
+    <span class="nav__titre">L’EST EN PERSPECTIVE</span>
+    <span class="nav__sous-titre">PME MTL × La Sphère HEC Montréal</span>
+  </a>
+
+  <nav aria-label="Navigation principale">
+    <ul class="nav__liens">
+      <li><button type="button" class="bouton" onclick="history.back()">← Retour</button></li>
+      <li><a href="#" class="bouton">Territoires</a></li>
+      <li><a href="#" class="bouton">Thématiques</a></li>
+      <li><a href="#" class="bouton">Comparer</a></li>
+      <li><span class="bouton" aria-current="page">Méthode</span></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="contenu">
+
+  <button type="button" class="bouton bouton--retour" onclick="history.back()">
+    ← Revenir à la page précédente
+  </button>
+
+  <h1 class="titre-page">Comment lire les données ?</h1>
+  <p class="chapeau">Des repères pour comprendre les résultats et leurs limites.</p>
+
+<section class="chapitre">
+  <h2 class="chapitre__titre">01&nbsp;&nbsp;/&nbsp;&nbsp;Ce que l’outil observe</h2>
+  <p class="chapitre__texte">Les réponses au questionnaire PME MTL / La Sphère HEC Montréal. Chaque résultat désigne sa population, son territoire d’attache, sa question et son effectif.</p>
+</section>
+
+<section class="chapitre">
+  <h2 class="chapitre__titre">02&nbsp;&nbsp;/&nbsp;&nbsp;Ce que signifie le territoire</h2>
+  <p class="chapitre__texte">Une entreprise, un représentant, un résident ou un travailleur peut être rattaché au territoire selon des questions différentes. La règle de rattachement doit être documentée par indicateur.</p>
+</section>
+
+<section class="chapitre">
+  <h2 class="chapitre__titre">03&nbsp;&nbsp;/&nbsp;&nbsp;Lire les pourcentages</h2>
+  <p class="chapitre__texte">Le dénominateur est le nombre de réponses valides à la question, parmi les personnes admissibles. Les non-réponses et « ne sait pas » sont distinguées. Aucun zéro ne remplace une donnée absente.</p>
+</section>
+
+<section class="chapitre">
+  <h2 class="chapitre__titre">04&nbsp;&nbsp;/&nbsp;&nbsp;Comparer les territoires</h2>
+  <p class="chapitre__texte">Les écarts portent sur une même question, un même profil et une même période. Le repère territorial est l’ensemble des répondants des quatre autres territoires, selon une méthode de pondération à valider.</p>
+</section>
+
+<section class="chapitre">
+  <h2 class="chapitre__titre">05&nbsp;&nbsp;/&nbsp;&nbsp;Les limites des résultats</h2>
+  <p class="chapitre__texte">L’attractivité décrit essentiellement l’Est entier ; la performance est une autoévaluation ; coopération et concurrence forment un axe de perception. Il ne s’agit pas d’un classement objectif des territoires.</p>
+</section>
+
+<section class="chapitre">
+  <h2 class="chapitre__titre">06&nbsp;&nbsp;/&nbsp;&nbsp;Quand les données sont insuffisantes</h2>
+  <p class="chapitre__texte">Un seuil de diffusion doit être validé avec l’équipe de recherche. Si l’effectif ou la comparabilité ne permet pas une lecture fiable, le résultat est masqué et l’utilisateur peut élargir les filtres.</p>
+</section>
+
+<section class="chapitre">
+  <h2 class="chapitre__titre">07&nbsp;&nbsp;/&nbsp;&nbsp;Le statut de cette maquette</h2>
+  <p class="chapitre__texte">Les chiffres ne sont pas encore disponibles. Les barres, valeurs « — » et textes « à venir » représentent les emplacements de restitution, sans données de démonstration.</p>
+</section>
+
+<footer class="pied">
+  <hr class="pied__separateur">
+  <div class="pied__contexte">
+    <p class="pied__texte">Une initiative de PME MTL Est de l’Île, avec La Sphère HEC Montréal.</p>
+    <a href="#haut" class="bouton bouton--haut">Revenir en haut ↑</a>
+  </div>
+</footer>
+</main>
+  </body>
+</html>
