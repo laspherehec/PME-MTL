@@ -11,7 +11,8 @@
     "open": "Open",
     "bottom_part": {
       "initiative": "An initiative of PME MTL EST-de-l'Île",
-      "how_to_read_data": "How to read this data"
+      "how_to_read_data": "How to read this data",
+      "contact": "Contact"
     }
   },
   "home_page": {
@@ -35,16 +36,127 @@
       "explore_by_comparison": "Compare relevant responses across territories."
     }
   },
-   "territories_page": {
-        "explore_east": "EXPLORE THE EAST",
-        "question_title": "Which territory would you like to understand?",
-        "open_portrait": "Open a portrait to identify its key signals, then delve into a theme.",
-        "see_portrait":"See the portrait",
-        "in_turquoise":"In turquoise, the five studied territories.",
-        "explore_by_thematic":"Explore by theme",
-        "compare_territories":"Compare territories"
-
+  "territories_page": {
+    "explore_east": "EXPLORE THE EAST",
+    "question_title": "Which territory would you like to understand?",
+    "open_portrait": "Open a portrait to identify its key signals, then delve into a theme.",
+    "see_portrait": "See the portrait",
+    "in_turquoise": "In turquoise, the five studied territories.",
+    "explore_by_thematic": "Explore by theme",
+    "compare_territories": "Compare territories"
+  },
+  "territory_page": {
+    "intro": {
+      "essential_signs": "The key signals for your territory, followed by all the data you need to explore further.",
+      "compare_this_territory": "Compare this territory",
+      "change_territory": "Change territory",
+      "theme": "Theme",
+      "respondents": "Respondents",
+      "positionning_by_indicator": "Position by indicator",
+      "seven_angles": "Seven ways to explore",
+      "same_question": "Same question, same profile, four gaps in percentage points"
     },
+    "dashboard": {
+      "your_dashboard": "Your dashboard",
+      "description_general": "Each overview presents a specific question, an indicator, and four comparable gaps. TODO: CHECK IF THIS IS THE RIGHT TEXT",
+      "base": "Base: business owners",
+      "base_2": "valid responses",
+      "gap": "Gap",
+      "share": "Share",
+      "gap_with_territories": "Gap compared with the four other territories",
+      "positive_gap_explanation": "A positive gap indicates a higher share. It does not demonstrate a statistically significant difference.",
+      "explore_all_data": "Explore all the data",
+      "territorial_coordination": {
+        "title": "Territorial coordination",
+        "question": "What facilitates business activity and coordination?",
+        "subtitle": "Telecommunications considered adequate",
+        "description_of_percentage": "% of responses rated 4–5 to the question about telecommunications",
+        "infrastructure_agree": "Infrastructure · share agreeing (4–5) · 0–100% scale",
+        "telecommunications": "Telecommunications",
+        "Logistics_merchandise_transport": "Logistics and freight transport",
+        "public_transport": "Public transit",
+        "compare_precise_levers": "Compare specific levers: the three bars represent three distinct questions",
+        "reference_territory": "Reference territory"
+      },
+      "cooperation_and_competition": {
+        "title": "Cooperation and competition",
+        "question": "Which stakeholders do businesses cooperate with most?",
+        "subtitle": "Cooperation with local institutional stakeholders",
+        "descriptions_of_percentage": "% of responses rated 1–2, indicating cooperation",
+        "institutions_same_territory": "Institutions in the same territory",
+        "support_accompaniement": "Support and guidance",
+        "business_same_sector": "Businesses in the same sector",
+        "cooperation": "Cooperation",
+        "neutre": "Neutral",
+        "competition": "Competition",
+        "distribution_explanation": "The same relationship can be cooperative, neutral, or competitive. Read the full description."
+      },
+      "ecological_transition_circular_economy": {
+        "title": "Ecological transition and circular economy",
+        "question": "What are the environmental priorities and practices?",
+        "subtitle": "Responsible purchasing: high implementation",
+        "description_of_percentage": "% of responses rated 4–5 on the implementation of responsible purchasing",
+        "priority_public_actors": "PRIORITIES · public-sector stakeholders",
+        "responsable_purchases_priority": "Responsible purchasing · high priority",
+        "practices_business_owners": "PRACTICES · business owners",
+        "responsable_purchases_implementation": "Responsible purchasing · high implementation",
+        "energy_water_management": "Energy and water management",
+        "priority_description_public_actors": "Public-sector stakeholder priorities and business practices: two distinct groups, not to be subtracted from one another."
+      },
+      "attractivity": {
+        "title": "Attractiveness",
+        "question": "How do aspiring entrepreneurs view the East, depending on the territory they are considering?",
+        "subtitle": "Eastern Montreal's logistics considered attractive",
+        "description_of_percentage": "% of responses rated 4–5 on Eastern Montreal's logistics",
+        "holder_each_territory_agree": "Aspiring entrepreneurs considering each territory: agreement (4–5) · 0–100%",
+        "selected": "selected",
+        "attractivity_gap_explanation": "Attractiveness refers to Eastern Montreal. The gaps below compare aspiring entrepreneurs' perceptions by the territory they are considering; these groups may overlap.",
+        "gaps_perception_title": "Gaps between aspiring entrepreneurs' perceptions",
+        "base": "Base: aspiring entrepreneurs who indicated a territory they are considering"
+      },
+      "artificial_intelligence": {
+        "title": "Artificial intelligence",
+        "question": "Are organizations preparing for AI?",
+        "subtitle": "Considering AI adoption",
+        "description_of_percentage": "% of responses rated 4–5 to “I would consider adopting AI.”",
+        "intention": "Intention",
+        "consider_using_ai": "Considering AI adoption",
+        "ressources": "Resources",
+        "has_ressources_create_app": "Has resources to create applications",
+        "same_public": "Same group · two questions · share agreeing (4–5)",
+        "intention_ressources_explanation": "Intention and resources are two distinct responses. They do not measure actual AI usage."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "question": "In which areas have businesses innovated?",
+        "subtitle": "Product innovation over the past 3 years",
+        "description_of_percentage": "% answering “Yes” to introducing new or improved products",
+        "products": "Products",
+        "services": "Services",
+        "production": "Production/service delivery",
+        "distribution": "Distribution/logistics",
+        "marketing": "Marketing/sales",
+        "information": "Information/communications",
+        "management": "Management/organization",
+        "product_development": "Product development",
+        "number_yes": "Share answering “Yes” · each type on a 0–100% scale",
+        "differents_forms_coexist": "A business may have several forms of innovation. The percentages do not add up to 100%."
+      },
+      "performance": {
+        "title": "Performance",
+        "question": "How do businesses compare themselves with their competitors?",
+        "subtitle": "Perceived growth higher than competitors",
+        "description_of_percentage": "% of responses rated 4–5 to the question about growth",
+        "growth": "Growth",
+        "lower": "Lower",
+        "same": "About the same",
+        "higher": "Higher",
+        "profitability": "Profitability",
+        "share_market": "Market share",
+        "leader_compare": "Business leaders compare themselves with their competitors. These perceptions are not an objective economic ranking."
+      }
+    }
+  },
   "comparison_page": {
     "label": "Putting Data into Perspective",
     "title": "Put Data into Perspective",
