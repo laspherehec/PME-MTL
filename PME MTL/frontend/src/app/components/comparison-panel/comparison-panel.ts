@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TranslocoPipe } from '@jsverse/transloco';
 
-
 interface ComparisonSelection {
   territory: string;
   theme: string;
@@ -15,10 +14,9 @@ interface ComparisonSelection {
   selector: 'app-comparison-panel',
   imports: [CommonModule, FormsModule, TranslocoPipe],
   templateUrl: './comparison-panel.html',
-  styleUrl: './comparison-panel.css'
+  styleUrl: './comparison-panel.css',
 })
 export class ComparisonPanel {
-
   @Output() compare = new EventEmitter<{
     comparisonA: ComparisonSelection;
     comparisonB: ComparisonSelection;
@@ -28,14 +26,14 @@ export class ComparisonPanel {
     territory: '',
     theme: '',
     dimension: '',
-    indicator: ''
+    indicator: '',
   };
 
   comparisonB: ComparisonSelection = {
     territory: '',
     theme: '',
     dimension: '',
-    indicator: ''
+    indicator: '',
   };
 
   territories: string[] = [];
@@ -46,7 +44,8 @@ export class ComparisonPanel {
   launchComparison(): void {
     this.compare.emit({
       comparisonA: { ...this.comparisonA },
-      comparisonB: { ...this.comparisonB }
+      comparisonB: { ...this.comparisonB },
     });
   }
+  launchReset(): void {return;};
 }

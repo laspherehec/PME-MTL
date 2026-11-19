@@ -1,11 +1,16 @@
-<header class="app__header">
-  <app-menu-bar />
-</header>
+<div class="app" [class.app--territory]="isTerritoryPage">
+  <header class="app__header">
+    <app-menu-bar />
+  </header>
 
-<div class="app__content">
-  <router-outlet />
+  <div class="app__content">
+    <router-outlet
+      (activate)="onRouteActivate($event)"
+      (deactivate)="onRouteDeactivate()"
+    />
+  </div>
+
+  <footer class="app__footer">
+    <app-bottom-bar />
+  </footer>
 </div>
-
-<footer class="app__footer">
-  <app-bottom-bar />
-</footer>

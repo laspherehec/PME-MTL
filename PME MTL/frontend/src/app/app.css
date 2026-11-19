@@ -1,7 +1,24 @@
 :host {
+  display: block;
+  min-height: 100vh;
+}
+
+.app {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: var(--couleur-fond, #fff);
+  color: var(--couleur-texte, #05325a);
+}
+
+.app--territory {
+  --couleur-titres: #fff;
+  --couleur-fond: #05325a;
+  --couleur-texte: #fff;
+  --couleur-texte-secondaire: #fff;
+  --couleur-separateur: rgb(255 255 255 / 55%);
+  --couleur-fond-actif: #fff;
+  --couleur-texte-actif: #05325a;
 }
 
 .app__header {

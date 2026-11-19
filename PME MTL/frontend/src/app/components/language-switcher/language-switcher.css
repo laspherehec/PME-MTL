@@ -16,6 +16,6 @@
 }
 
 .language-switcher button.language-switcher__button--active {
-  background: var(--couleur-titres, #05325a);
-  color: #fff;
+  background: var(--couleur-fond-actif, var(--couleur-titres, #05325a));
+  color: var(--couleur-texte-actif, #fff);
 }

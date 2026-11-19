@@ -47,10 +47,14 @@
     },
     "territory_page": {
         "intro": {
+            "all_territories":"Tous les territoires",
+            "territorial_portrait":"PORTRAIT TERRITORIAL",
             "essential_signs": "Les signaux essentiels de votre territoire, puis toutes les données pour approfondir.",
             "compare_this_territory": "Comparer ce territoire",
             "change_territory": "Changer de territoire",
-            "theme": "Thématique",
+            "theme": "Thématiques",
+            "territory":"Territoire",
+            "territories":"territoires",
             "respondents": "Répondants",
             "positionning_by_indicator": "Positionnement par indicateur",
             "seven_angles": "Sept angles de lecture",

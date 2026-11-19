@@ -47,10 +47,14 @@
   },
   "territory_page": {
     "intro": {
+      "all_territories": "All territories",
+      "territorial_portrait": "TERRITORIAL PORTRAIT",
+      "territory": "Territory",
       "essential_signs": "The key signals for your territory, followed by all the data you need to explore further.",
       "compare_this_territory": "Compare this territory",
       "change_territory": "Change territory",
-      "theme": "Theme",
+      "theme": "Themes",
+      "territories":"territories",
       "respondents": "Respondents",
       "positionning_by_indicator": "Position by indicator",
       "seven_angles": "Seven ways to explore",

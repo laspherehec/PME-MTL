@@ -28,7 +28,7 @@
 }
 
 .menu-bar__subtitle {
-  color: #8b97a7;
+  color: var(--couleur-texte-secondaire, #8b97a7);
   font-size: 0.65rem;
 }
 

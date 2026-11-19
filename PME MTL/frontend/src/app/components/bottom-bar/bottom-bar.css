@@ -6,7 +6,7 @@
   display: block;
   width: 92%;
   margin: 0 auto 2rem;
-  border-top: 1px solid #d8dee8;
+  border-top: 1px solid var(--couleur-separateur, #d8dee8);
   content: '';
 }
 
@@ -16,13 +16,13 @@
   justify-content: space-between;
   gap: 1rem;
   width: 100%;
-  color: #596278;
+  color: var(--couleur-texte-secondaire, #596278);
 }
 
 .bottom-bar button {
   border: 0;
   padding: 0;
-  background: #fff;
+  background: transparent;
   color: var(--couleur-titres, #05325a);
   cursor: pointer;
   font-weight: 600;

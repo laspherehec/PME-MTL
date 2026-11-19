@@ -1,0 +1,73 @@
+<main class="territory-page">
+  <section class="territory-intro" aria-labelledby="territory-title">
+    <div class="territory-intro__topline">
+      <a class="territory-intro__back" routerLink="/territories">
+        <span aria-hidden="true">←</span>
+        {{ 'territory_page.intro.all_territories' | transloco }}
+      </a>
+      <span class="territory-intro__badge">
+        {{ 'territory_page.intro.territorial_portrait' | transloco }}
+      </span>
+    </div>
+
+    <h1 id="territory-title">{{ 'territory_page.intro.territory' | transloco }}</h1>
+    <p class="territory-intro__description">
+      {{ 'territory_page.intro.essential_signs' | transloco }}
+    </p>
+
+    <div class="territory-intro__actions">
+      <a class="territory-intro__action territory-intro__action--outlined" routerLink="TODO">
+        {{ 'territory_page.intro.compare_this_territory' | transloco }}
+      </a>
+      <a class="territory-intro__action" routerLink="/territories">
+        {{ 'territory_page.intro.change_territory' | transloco }}
+      </a>
+    </div>
+
+    <div class="territory-intro__stats">
+      <article class="territory-stat">
+        <h2 class="territory-stat__label">{{ 'territory_page.intro.theme' | transloco }}</h2>
+        <p class="territory-stat__value">07</p>
+        <p class="territory-stat__caption">{{ 'territory_page.intro.seven_angles' | transloco }}</p>
+      </article>
+
+      <article class="territory-stat">
+        <h2 class="territory-stat__label">{{ 'territory_page.intro.respondents' | transloco }}</h2>
+        <p class="territory-stat__value">-</p>
+      </article>
+
+      <article class="territory-stat">
+        <h2 class="territory-stat__label">
+          {{ 'territory_page.intro.positionning_by_indicator' | transloco }}
+        </h2>
+        <p class="territory-stat__value territory-stat__value--territories">
+          <span class="territory-stat__number">4</span>
+          <span class="territory-stat__unit">{{ 'territory_page.intro.territories' | transloco }}</span>
+        </p>
+        <p class="territory-stat__caption">{{ 'territory_page.intro.same_question' | transloco }}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="territory-dashboard" aria-labelledby="territory-dashboard-title">
+    <div class="territory-dashboard__intro">
+      <h2 id="territory-dashboard-title">
+        {{ 'territory_page.dashboard.your_dashboard' | transloco }}
+      </h2>
+      <nav class="territory-dashboard__sections" [attr.aria-label]="'territory_page.dashboard.your_dashboard' | transloco">
+        @for (section of dashboardSections; track section) {
+          <button
+            class="territory-dashboard__section-button"
+            type="button"
+            [attr.aria-label]="('territory_page.intro.theme' | transloco) + ' ' + section"
+          >
+            {{ section }}
+          </button>
+        }
+      </nav>
+    </div>
+    <p class="territory-dashboard__description">
+      {{ 'territory_page.dashboard.description_general' | transloco }}
+    </p>
+  </section>
+</main>
