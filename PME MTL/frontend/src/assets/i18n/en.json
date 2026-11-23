@@ -35,7 +35,7 @@
             "explore_by_comparison": "Compare relevant responses across territories."
         }
     },
-     "territories_page": {
+         "territories_page": {
         "explore_east": "EXPLORE THE EAST",
         "question_title": "Which territory would you like to understand?",
         "open_portrait": "Open a portrait to identify its key signals, then delve into a theme.",
@@ -44,5 +44,43 @@
         "explore_by_thematic":"Explore by theme",
         "compare_territories":"Compare territories"
 
+    },
+    "how_to_read_page": {
+        "partnership": "PME MTL × La Sphère HEC Montréal",
+        "back_to_previous": "Back to previous page",
+        "title": "How to read the data?",
+        "subtitle": "Guidelines to understand the results and their limitations.",
+        "chapters": {
+            "what_tool_observes": {
+                "title": "What the tool observes",
+                "text": "Responses to the PME MTL / La Sphère HEC Montréal questionnaire. Each result specifies its population, its home territory, its question and its sample size."
+            },
+            "territory_meaning": {
+                "title": "What territory means",
+                "text": "A business, a representative, a resident or a worker may be linked to a territory through different questions. The linkage rule must be documented for each indicator."
+            },
+            "read_percentages": {
+                "title": "Reading the percentages",
+                "text": "The denominator is the number of valid responses to the question among eligible respondents. Non-responses and “don’t know” answers are reported separately. No zero ever replaces missing data."
+            },
+            "compare_territories": {
+                "title": "Comparing territories",
+                "text": "Gaps refer to the same question, the same profile and the same period. The territorial benchmark is all respondents from the other four territories, using a weighting method yet to be validated."
+            },
+            "results_limits": {
+                "title": "Limitations of the results",
+                "text": "Attractiveness essentially describes the East as a whole; performance is self-assessed; cooperation and competition form a perception axis. This is not an objective ranking of territories."
+            },
+            "insufficient_data": {
+                "title": "When data is insufficient",
+                "text": "A publication threshold must be validated with the research team. If the sample size or comparability does not allow a reliable reading, the result is hidden and users can broaden the filters."
+            },
+            "mockup_status": {
+                "title": "Status of this mock-up",
+                "text": "Figures are not yet available. Bars, “—” values and “coming soon” text show where results will appear, with no demo data."
+            }
+        },
+        "footer_initiative": "An initiative of PME MTL Est-de-l’Île, with La Sphère HEC Montréal.",
+        "back_to_top": "Back to top"
     }
 }

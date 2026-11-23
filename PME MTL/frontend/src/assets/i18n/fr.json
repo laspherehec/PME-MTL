@@ -36,7 +36,7 @@
             "explore_by_comparison": "Mettre en regard des réponses comparables entre territoires."
         }
     },
-    "territories_page": {
+        "territories_page": {
         "explore_east": "EXPLORER L'EST",
         "question_title": "Quel territoire souhaitez-vous comprendre?",
         "open_portrait": "Ouvrez un portrait pour repérer ses signaux clés, puis approfondissez une thématique.",
@@ -45,5 +45,43 @@
         "explore_by_thematic":"Explorer par thématique",
         "compare_territories":"Comparer les territoires"
 
+    },
+    "how_to_read_page": {
+        "partnership": "PME MTL × La Sphère HEC Montréal",
+        "back_to_previous": "Revenir à la page précédente",
+        "title": "Comment lire les données ?",
+        "subtitle": "Des repères pour comprendre les résultats et leurs limites.",
+        "chapters": {
+            "what_tool_observes": {
+                "title": "Ce que l’outil observe",
+                "text": "Les réponses au questionnaire PME MTL / La Sphère HEC Montréal. Chaque résultat désigne sa population, son territoire d’attache, sa question et son effectif."
+            },
+            "territory_meaning": {
+                "title": "Ce que signifie le territoire",
+                "text": "Une entreprise, un représentant, un résident ou un travailleur peut être rattaché au territoire selon des questions différentes. La règle de rattachement doit être documentée par indicateur."
+            },
+            "read_percentages": {
+                "title": "Lire les pourcentages",
+                "text": "Le dénominateur est le nombre de réponses valides à la question, parmi les personnes admissibles. Les non-réponses et « ne sait pas » sont distinguées. Aucun zéro ne remplace une donnée absente."
+            },
+            "compare_territories": {
+                "title": "Comparer les territoires",
+                "text": "Les écarts portent sur une même question, un même profil et une même période. Le repère territorial est l’ensemble des répondants des quatre autres territoires, selon une méthode de pondération à valider."
+            },
+            "results_limits": {
+                "title": "Les limites des résultats",
+                "text": "L’attractivité décrit essentiellement l’Est entier ; la performance est une autoévaluation ; coopération et concurrence forment un axe de perception. Il ne s’agit pas d’un classement objectif des territoires."
+            },
+            "insufficient_data": {
+                "title": "Quand les données sont insuffisantes",
+                "text": "Un seuil de diffusion doit être validé avec l’équipe de recherche. Si l’effectif ou la comparabilité ne permet pas une lecture fiable, le résultat est masqué et l’utilisateur peut élargir les filtres."
+            },
+            "mockup_status": {
+                "title": "Le statut de cette maquette",
+                "text": "Les chiffres ne sont pas encore disponibles. Les barres, valeurs « — » et textes « à venir » représentent les emplacements de restitution, sans données de démonstration."
+            }
+        },
+        "footer_initiative": "Une initiative de PME MTL Est de l’Île, avec La Sphère HEC Montréal.",
+        "back_to_top": "Revenir en haut"
     }
 }

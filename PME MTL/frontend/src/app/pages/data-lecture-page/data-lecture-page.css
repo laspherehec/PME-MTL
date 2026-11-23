@@ -1,36 +1,30 @@
-:root {
+:host {
+  display: block;
+
   --bleu-hec: #002855;
   --encre:    #1f1f1f;
   --gris:     #666666;
   --bordure:  #bfbfbf;
   --papier:   #ffffff;
 
-  --police-texte: "Visby CF"
-  --police-titre: "Visby Slab CF"
-}
+  --police-texte: "Visby CF", "Avenir Next", Arial, sans-serif;
+  --police-titre: "Visby Slab CF", Rockwell, Georgia, serif;
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
   background: var(--papier);
   color: var(--encre);
   font-family: var(--police-texte);
   line-height: 1.4;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 h1, h2, p {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-
+/* ---------- Bouton ---------- */
 .bouton {
   display: inline-block;
   min-height: 44px;
@@ -45,7 +39,6 @@ a {
   line-height: 1.4;
   text-align: left;
   cursor: pointer;
-  vertical-align: middle;
 }
 
 .bouton:hover {
@@ -57,58 +50,33 @@ a {
   outline-offset: 2px;
 }
 
-.bouton[aria-current="page"] {
-  cursor: default;
-}
-
 .bouton--retour { width: 245px; }
-.bouton--haut   { width: 242px; }
 
-.nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
-  min-height: 80px;
-  padding: 16px 40px;
-  background: var(--papier);
-}
-
-.nav__identite {
+/* ---------- Contenu ---------- */
+.contenu {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  min-width: 180px;
+  align-items: flex-start;
+  gap: 32px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px;
 }
 
-.nav__titre {
-  font-size: 18px;
+.titre-page {
+  font-family: var(--police-titre);
+  font-size: 52px;
   font-weight: 700;
+  line-height: 1.1;
   color: var(--bleu-hec);
 }
 
-.nav__sous-titre {
-  font-size: 11px;
+.chapeau {
+  font-size: 20px;
   color: var(--gris);
 }
 
-.nav__liens {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav__liens .bouton {
-  width: 132px;
-}
-
-.nav__liens .bouton[aria-current="page"] {
-  width: 114px;
-}
-
+/* ---------- Cartes chapitre ---------- */
 .chapitre {
   display: flex;
   flex-direction: column;
@@ -131,31 +99,13 @@ a {
   color: var(--encre);
 }
 
-.pied {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  width: 100%;
-  padding: 24px;
-}
+/* ---------- Mobile ---------- */
+@media (max-width: 700px) {
+  .contenu {
+    padding: 20px;
+  }
 
-.pied__separateur {
-  width: 100%;
-  height: 1px;
-  margin: 0;
-  border: none;
-  background: var(--bordure);
+  .titre-page {
+    font-size: 36px;
+  }
 }
-
-.pied__contexte {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
-}
-
-.pied__texte {
-  flex: 1;
-  font-size: 13px;
-  color: var(--gris);
-} 
