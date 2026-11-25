@@ -11,7 +11,18 @@ export const themeStructures: ThemeStructure[] = [
     chartType: 'bar',
     descriptionPosition: 'none',
     hasPercentageBottomDescription: true,
-    barIds: ['telecommunications', 'logistics_merchandise_transport', 'public_transport'],
+    barGroups: [
+      {
+        id: 'main',
+        color: 'primary',
+        barIds: ['telecommunications'],
+      },
+      {
+        id: 'secondary',
+        color: 'secondary',
+        barIds: ['logistics_merchandise_transport', 'public_transport'],
+      },
+    ],
   },
   {
     id: 'cooperation_and_competition',
@@ -19,7 +30,8 @@ export const themeStructures: ThemeStructure[] = [
     chartType: 'bar_stacked',
     descriptionPosition: 'bottom',
     hasPercentageBottomDescription: false,
-    barIds: ['institutions_same_territory', 'support_accompaniement', 'business_same_sector'],
+    barGroups:{id:'main',color:'primary',
+    barIds: ['institutions_same_territory', 'support_accompaniement', 'business_same_sector'],}
   },
   {
     id: 'ecological_transition_circular_economy',
@@ -89,7 +101,16 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     innovation: {
       mainPercentage: 48,
       sampleSize: 480,
-      bars: { products: 48, services: 55, production: 42, distribution: 39, marketing: 46, information: 51, management: 44, product_development: 36 },
+      bars: {
+        products: 48,
+        services: 55,
+        production: 42,
+        distribution: 39,
+        marketing: 46,
+        information: 51,
+        management: 44,
+        product_development: 36,
+      },
       stats: {
         montreal_nord: { share: 44, gap: -4 },
         saint_leonard: { share: 46, gap: -2 },
@@ -111,7 +132,11 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     cooperation_and_competition: {
       mainPercentage: 57,
       sampleSize: 480,
-      bars: { institutions_same_territory: 57, support_accompaniement: 49, business_same_sector: 53 },
+      bars: {
+        institutions_same_territory: 57,
+        support_accompaniement: 49,
+        business_same_sector: 53,
+      },
       stats: {
         montreal_nord: { share: 52, gap: -5 },
         saint_leonard: { share: 55, gap: -2 },
@@ -122,7 +147,11 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     ecological_transition_circular_economy: {
       mainPercentage: 45,
       sampleSize: 480,
-      bars: { responsable_purchases_priority: 45, responsable_purchases_implementation: 38, energy_water_management: 52 },
+      bars: {
+        responsable_purchases_priority: 45,
+        responsable_purchases_implementation: 38,
+        energy_water_management: 52,
+      },
       stats: {
         montreal_nord: { share: 41, gap: -4 },
         saint_leonard: { share: 43, gap: -2 },
@@ -168,7 +197,16 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     innovation: {
       mainPercentage: 44,
       sampleSize: 510,
-      bars: { products: 44, services: 50, production: 39, distribution: 36, marketing: 41, information: 47, management: 40, product_development: 33 },
+      bars: {
+        products: 44,
+        services: 50,
+        production: 39,
+        distribution: 36,
+        marketing: 41,
+        information: 47,
+        management: 40,
+        product_development: 33,
+      },
       stats: {
         anjou: { share: 48, gap: 4 },
         saint_leonard: { share: 46, gap: 2 },
@@ -190,7 +228,11 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     cooperation_and_competition: {
       mainPercentage: 52,
       sampleSize: 510,
-      bars: { institutions_same_territory: 52, support_accompaniement: 46, business_same_sector: 49 },
+      bars: {
+        institutions_same_territory: 52,
+        support_accompaniement: 46,
+        business_same_sector: 49,
+      },
       stats: {
         anjou: { share: 57, gap: 5 },
         saint_leonard: { share: 55, gap: 3 },
@@ -201,7 +243,11 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     ecological_transition_circular_economy: {
       mainPercentage: 41,
       sampleSize: 510,
-      bars: { responsable_purchases_priority: 41, responsable_purchases_implementation: 35, energy_water_management: 48 },
+      bars: {
+        responsable_purchases_priority: 41,
+        responsable_purchases_implementation: 35,
+        energy_water_management: 48,
+      },
       stats: {
         anjou: { share: 45, gap: 4 },
         saint_leonard: { share: 43, gap: 2 },
@@ -247,7 +293,16 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     innovation: {
       mainPercentage: 46,
       sampleSize: 465,
-      bars: { products: 46, services: 52, production: 40, distribution: 37, marketing: 43, information: 49, management: 42, product_development: 35 },
+      bars: {
+        products: 46,
+        services: 52,
+        production: 40,
+        distribution: 37,
+        marketing: 43,
+        information: 49,
+        management: 42,
+        product_development: 35,
+      },
       stats: {
         anjou: { share: 48, gap: 2 },
         montreal_nord: { share: 44, gap: -2 },
@@ -269,7 +324,11 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     cooperation_and_competition: {
       mainPercentage: 55,
       sampleSize: 465,
-      bars: { institutions_same_territory: 55, support_accompaniement: 48, business_same_sector: 51 },
+      bars: {
+        institutions_same_territory: 55,
+        support_accompaniement: 48,
+        business_same_sector: 51,
+      },
       stats: {
         anjou: { share: 57, gap: 2 },
         montreal_nord: { share: 52, gap: -3 },
@@ -280,7 +339,11 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     ecological_transition_circular_economy: {
       mainPercentage: 43,
       sampleSize: 465,
-      bars: { responsable_purchases_priority: 43, responsable_purchases_implementation: 37, energy_water_management: 50 },
+      bars: {
+        responsable_purchases_priority: 43,
+        responsable_purchases_implementation: 37,
+        energy_water_management: 50,
+      },
       stats: {
         anjou: { share: 45, gap: 2 },
         montreal_nord: { share: 41, gap: -2 },
@@ -326,7 +389,16 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     innovation: {
       mainPercentage: 43,
       sampleSize: 445,
-      bars: { products: 43, services: 49, production: 38, distribution: 35, marketing: 40, information: 46, management: 39, product_development: 32 },
+      bars: {
+        products: 43,
+        services: 49,
+        production: 38,
+        distribution: 35,
+        marketing: 40,
+        information: 46,
+        management: 39,
+        product_development: 32,
+      },
       stats: {
         anjou: { share: 48, gap: 5 },
         montreal_nord: { share: 44, gap: 1 },
@@ -348,7 +420,11 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     cooperation_and_competition: {
       mainPercentage: 51,
       sampleSize: 445,
-      bars: { institutions_same_territory: 51, support_accompaniement: 45, business_same_sector: 48 },
+      bars: {
+        institutions_same_territory: 51,
+        support_accompaniement: 45,
+        business_same_sector: 48,
+      },
       stats: {
         anjou: { share: 57, gap: 6 },
         montreal_nord: { share: 52, gap: 1 },
@@ -359,7 +435,11 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     ecological_transition_circular_economy: {
       mainPercentage: 40,
       sampleSize: 445,
-      bars: { responsable_purchases_priority: 40, responsable_purchases_implementation: 34, energy_water_management: 47 },
+      bars: {
+        responsable_purchases_priority: 40,
+        responsable_purchases_implementation: 34,
+        energy_water_management: 47,
+      },
       stats: {
         anjou: { share: 45, gap: 5 },
         montreal_nord: { share: 41, gap: 1 },
@@ -405,7 +485,16 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     innovation: {
       mainPercentage: 47,
       sampleSize: 430,
-      bars: { products: 47, services: 53, production: 41, distribution: 38, marketing: 44, information: 50, management: 43, product_development: 34 },
+      bars: {
+        products: 47,
+        services: 53,
+        production: 41,
+        distribution: 38,
+        marketing: 44,
+        information: 50,
+        management: 43,
+        product_development: 34,
+      },
       stats: {
         anjou: { share: 48, gap: 1 },
         montreal_nord: { share: 44, gap: -3 },
@@ -427,7 +516,11 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     cooperation_and_competition: {
       mainPercentage: 53,
       sampleSize: 430,
-      bars: { institutions_same_territory: 53, support_accompaniement: 47, business_same_sector: 50 },
+      bars: {
+        institutions_same_territory: 53,
+        support_accompaniement: 47,
+        business_same_sector: 50,
+      },
       stats: {
         anjou: { share: 57, gap: 4 },
         montreal_nord: { share: 52, gap: -1 },
@@ -438,7 +531,11 @@ export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {
     ecological_transition_circular_economy: {
       mainPercentage: 44,
       sampleSize: 430,
-      bars: { responsable_purchases_priority: 44, responsable_purchases_implementation: 36, energy_water_management: 51 },
+      bars: {
+        responsable_purchases_priority: 44,
+        responsable_purchases_implementation: 36,
+        energy_water_management: 51,
+      },
       stats: {
         anjou: { share: 45, gap: 1 },
         montreal_nord: { share: 41, gap: -3 },

@@ -66,7 +66,6 @@
             "base_2": "réponses valides",
             "explore_all_data": "Explorer toutes les données",
             "territorial_coordination": {
-                "number": "01",
                 "title": "Coordonitation territoriale",
                 "question": "Qu'est-ce qui facilite l'activité et la coordination?",
                 "subtitle": "Télécommunications jugées suffisantes",
@@ -75,12 +74,11 @@
                 "telecommunications": "Télécommunications",
                 "logistics_merchandise_transport": "Logistique et transport de marchandises",
                 "public_transport": "Transport collectif",
-                "compare_precise_levers": "Comparer des leviers précis: les trois barres représentent trois questions distinctes",
+                "description_below_graphs": "Comparer des leviers précis: les trois barres représentent trois questions distinctes",
                 "reference_territory": "Territoire de référence",
                 "base": "Base: propriétaires d'entreprise"
             },
             "cooperation_and_competition": {
-                "number": "02",
                 "title": "Coopération et concurrence",
                 "question": "Avec quels acteurs coopère-t-on le plus?",
                 "subtitle": "Coopération avec les acteurs insitutionnels locaux",
@@ -91,11 +89,10 @@
                 "cooperation": "Coopération",
                 "neutre": "Neutre",
                 "competition": "Concurrence",
-                "distribution_explanation": "Une même relation peut être coopérative, neutre ou concurrentielle. Lire toute la description.",
+                "description_below_graphs": "Une même relation peut être coopérative, neutre ou concurrentielle. Lire toute la description.",
                 "base": "Base: propriétaires d'entreprise"
             },
             "ecological_transition_circular_economy": {
-                "number": "03",
                 "title": "Transition écologique et économie circulaire",
                 "question": "Quelles priorités et quelles pratiques écologiques?",
                 "subtitle": "Achats responsables: mise en œuvre élevée",
@@ -105,37 +102,33 @@
                 "practices_business_owners": "PRATIQUES · propriétaires d'entreprise",
                 "responsable_purchases_implementation": "Achats responsables · mise en œuvre élevée",
                 "energy_water_management": "Gestion de l'énergie et de l'eau",
-                "priority_description_public_actors": "Priorités des acteurs publics et pratiques des entreprises: deux publics distincts, sans soustraction entre eux.",
+                "description_below_graphs": "Priorités des acteurs publics et pratiques des entreprises: deux publics distincts, sans soustraction entre eux.",
                 "base": "Base: propriétaires d'entreprise"
             },
             "attractivity": {
-                "number": "04",
                 "title": "Attractivité",
                 "question": "Comment les porteurs perçoivent-ils l'Est selon le territoire envisagé?",
                 "subtitle": "Logistique de l'Est jugée attractive",
                 "description_right_of_percentage": "% de réponses 4-5 sur la logistique de l'Est",
                 "description_bottom_of_percentage": "Porteurs visant chaque territoire: accord (4-5) · 0-100%",
                 "selected": "sélectionné",
-                "attractivity_gap_explanation": "L'attractivité porte sur l'Est de Montréal. Les écarts ci-dessous comparent les perceptions des porteurs selon leur territoire envisagé, ces groupes peuvent se recouper",
-                "gaps_perception_title": "Écarts entre perceptions des porteurs",
+                "description_below_graphs": "L'attractivité porte sur l'Est de Montréal. Les écarts ci-dessous comparent les perceptions des porteurs selon leur territoire envisagé, ces groupes peuvent se recouper",
                 "base": "Base: futurs entrepreneurs ayant indiqué un territoire envisagé"
             },
             "artificial_intelligence": {
-                "number": "05",
                 "title": "Intelligence artificielle",
                 "question": "Les organisations se préparent-elles à l'IA?",
                 "subtitle": "Envisager l'adoption de l'IA'",
                 "description_right_of_percentage": "% de réponses 4-5 à «J'envisagerais d'adopter l'IA.»",
                 "intention": "Intention",
                 "consider_using_ai": "Envisager d'adopter l'IA",
-                "ressources": "Ressources",
-                "has_ressources_create_app": "Dispose de ressources pour créer des applications",
+                "resources": "Ressources",
+                "has_resources_create_app": "Dispose de ressources pour créer des applications",
                 "same_public": "Même public · deux questions · part d'accord (4-5)",
-                "intention_ressources_explanation": "L'intention et les ressources sont deux réponses distinctes. Elles ne mesurent pas un taux d'usage réel de l'IA.",
+                "description_below_graphs": "L'intention et les ressources sont deux réponses distinctes. Elles ne mesurent pas un taux d'usage réel de l'IA.",
                 "base": "Base: propriétaires d'entreprise"
             },
             "innovation": {
-                "number": "06",
                 "title": "Innovation",
                 "question": "Dans quels domaines les entreprises ont-elles innové?",
                 "subtitle": "Innovation de produits au cours des 3 dernières années",
@@ -149,11 +142,10 @@
                 "management": "Gestion/organisation",
                 "product_development": "Développement de produits",
                 "number_yes": "Part de «Oui» · chaque forme sur une échelle de 0 à 100%",
-                "differents_forms_coexist": "Plusieurs formes peuvent coexister dans une entreprise. Les pourcentage ne s'additionnent pas.",
+                "description_below_graphs": "Plusieurs formes peuvent coexister dans une entreprise. Les pourcentage ne s'additionnent pas.",
                 "base": "Base: propriétaires d'entreprise"
             },
             "performance": {
-                "number": "07",
                 "title": "Performance",
                 "question": "Comment les entreprises se situent-elles face aux concurrents?",
                 "subtitle": "Croissance perçue supérieure aux concurrents",
@@ -164,7 +156,7 @@
                 "higher": "Supérieure",
                 "profitability": "Rentabilité",
                 "share_market": "Part de marché",
-                "leader_compare": "Les dirigeants se comparents à leurs concurrents. Ces perceptions ne constituent pas un classement économique objectif.",
+                "description_below_graphs": "Les dirigeants se comparents à leurs concurrents. Ces perceptions ne constituent pas un classement économique objectif.",
                 "base": "Base: propriétaires d'entreprise"
             },
             "stats": {

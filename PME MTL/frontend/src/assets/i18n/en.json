@@ -67,76 +67,97 @@
       "base_2": "valid responses",
       "explore_all_data": "Explore all the data",
       "territorial_coordination": {
-        "number": "01",
         "title": "Territorial coordination",
         "question": "What facilitates business activity and coordination?",
         "subtitle": "Telecommunications considered adequate",
         "description_right_of_percentage": "% of responses rated 4–5 to the question about telecommunications",
         "description_bottom_of_percentage": "Infrastructure · share agreeing (4–5) · 0–100% scale",
-        "telecommunications": "Telecommunications",
-        "logistics_merchandise_transport": "Logistics and freight transport",
-        "public_transport": "Public transit",
-        "compare_precise_levers": "Compare specific levers: the three bars represent three distinct questions",
+        "bars": {
+          "telecommunications": {
+            "label": "Telecommunications"
+          },
+          "logistics_merchandise_transport": {
+            "label": "Logistics and freight transport"
+          },
+          "public_transport": {
+            "label": "Public transit"
+          }
+        },
+        "description_below_graphs": "Compare specific levers: the three bars represent three distinct questions",
         "reference_territory": "Reference territory",
         "base": "Base: business owners"
       },
       "cooperation_and_competition": {
-        "number": "02",
         "title": "Cooperation and competition",
         "question": "Which stakeholders do businesses cooperate with most?",
         "subtitle": "Cooperation with local institutional stakeholders",
         "descriptions_right_of_percentage": "% of responses rated 1–2, indicating cooperation",
-        "institutions_same_territory": "Institutions in the same territory",
-        "support_accompaniement": "Support and guidance",
-        "business_same_sector": "Businesses in the same sector",
+        "bars": {
+          "institutions_same_territory": {
+            "label": "Institutions in the same territory"
+          },
+          "support_accompaniement": {
+            "label": "Support and guidance"
+          },
+          "business_same_sector": {
+            "label": "Businesses in the same sector"
+          }
+        },
         "cooperation": "Cooperation",
         "neutre": "Neutral",
         "competition": "Competition",
-        "distribution_explanation": "The same relationship can be cooperative, neutral, or competitive. Read the full description.",
+        "description_below_graphs": "The same relationship can be cooperative, neutral, or competitive. Read the full description.",
         "base": "Base: business owners"
       },
       "ecological_transition_circular_economy": {
-        "number": "03",
         "title": "Ecological transition and circular economy",
         "question": "What are the environmental priorities and practices?",
         "subtitle": "Responsible purchasing: high implementation",
         "description_right_of_percentage": "% of responses rated 4–5 on the implementation of responsible purchasing",
-        "priority_public_actors": "PRIORITIES · public-sector stakeholders",
-        "responsable_purchases_priority": "Responsible purchasing · high priority",
-        "practices_business_owners": "PRACTICES · business owners",
-        "responsable_purchases_implementation": "Responsible purchasing · high implementation",
+        "groups": {
+          "priority": {
+            "heading": "Priorities · public-sector stakeholders"
+          },
+          "practices": {
+            "heading": "Practices · business owners"
+          }
+        },
+        "bars": {
+          "responsable_purchases_priority": {
+            "label": "Responsible purchasing · high priority"
+          },
+          "responsable_purchases_implementation": {
+            "label": "Responsible purchasing · high implementation"
+          }
+        },
         "energy_water_management": "Energy and water management",
-        "priority_description_public_actors": "Public-sector stakeholder priorities and business practices: two distinct groups, not to be subtracted from one another.",
+        "description_below_graphs": "Public-sector stakeholder priorities and business practices: two distinct groups, not to be subtracted from one another.",
         "base": "Base: business owners"
       },
       "attractivity": {
-        "number": "04",
         "title": "Attractiveness",
         "question": "How do aspiring entrepreneurs view the East, depending on the territory they are considering?",
         "subtitle": "Eastern Montreal's logistics considered attractive",
         "description_right_of_percentage": "% of responses rated 4–5 on Eastern Montreal's logistics",
         "description_bottom_of_percentage": "Aspiring entrepreneurs considering each territory: agreement (4–5) · 0–100%",
         "selected": "selected",
-        "attractivity_gap_explanation": "Attractiveness refers to Eastern Montreal. The gaps below compare aspiring entrepreneurs' perceptions by the territory they are considering; these groups may overlap.",
-        "gaps_perception_title": "Gaps between aspiring entrepreneurs' perceptions",
+        "description_below_graphs": "Attractiveness refers to Eastern Montreal. The gaps below compare aspiring entrepreneurs' perceptions by the territory they are considering; these groups may overlap.",
         "base": "Base: aspiring entrepreneurs who indicated a territory they are considering"
       },
       "artificial_intelligence": {
-        "number": "05",
         "title": "Artificial intelligence",
         "question": "Are organizations preparing for AI?",
         "subtitle": "Considering AI adoption",
         "description_right_of_percentage": "% of responses rated 4–5 to “I would consider adopting AI.”",
         "intention": "Intention",
         "consider_using_ai": "Considering AI adoption",
-        "ressources": "Resources",
-        "has_ressources_create_app": "Has resources to create applications",
+        "resources": "Resources",
+        "has_resources_create_app": "Has resources to create applications",
         "same_public": "Same group · two questions · share agreeing (4–5)",
-        "intention_ressources_explanation": "Intention and resources are two distinct responses. They do not measure actual AI usage.",
+        "description_below_graphs": "Intention and resources are two distinct responses. They do not measure actual AI usage.",
         "base": "Base: business owners"
       },
       "innovation": {
-        "number": "06",
         "title": "Innovation",
         "question": "In which areas have businesses innovated?",
         "subtitle": "Product innovation over the past 3 years",
@@ -150,11 +171,10 @@
         "management": "Management/organization",
         "product_development": "Product development",
         "number_yes": "Share answering “Yes” · each type on a 0–100% scale",
-        "differents_forms_coexist": "A business may have several forms of innovation. The percentages do not add up to 100%.",
+        "description_below_graphs": "A business may have several forms of innovation. The percentages do not add up to 100%.",
         "base": "Base: business owners"
       },
       "performance": {
-        "number": "07",
         "title": "Performance",
         "question": "How do businesses compare themselves with their competitors?",
         "subtitle": "Perceived growth higher than competitors",
@@ -165,7 +185,7 @@
         "higher": "Higher",
         "profitability": "Profitability",
         "share_market": "Market share",
-        "leader_compare": "Business leaders compare themselves with their competitors. These perceptions are not an objective economic ranking.",
+        "description_below_graphs": "Business leaders compare themselves with their competitors. These perceptions are not an objective economic ranking.",
         "base": "Base: business owners"
       },
       "stats": {

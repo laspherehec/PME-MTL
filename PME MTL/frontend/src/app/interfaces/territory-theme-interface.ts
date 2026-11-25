@@ -1,8 +1,15 @@
 export type ChartType = 'bar_stacked' | 'bar' | 'lollipop';
 export type BarDescriptionPosition = 'top' | 'bottom' | 'middle' | 'none';
 export type TerritoryId =
-  | 'anjou' | 'montreal_nord' | 'saint_leonard'
-  | 'riviere_des_prairies' | 'montreal_est';
+  'anjou' | 'montreal_nord' | 'saint_leonard' | 'riviere_des_prairies' | 'montreal_est';
+export type BarColor = 'primary' | 'secondary';
+
+export interface BarGroup {
+  id: string; // clé i18n : groups.<id>.heading pou e theme 03 et pour le reste on a main ou secondary
+  barIds: string[];
+  color: BarColor;
+  hasHeading?: boolean; // true si un heading est affiché au-dessus du groupe exemple theme numero 03
+}
 
 // 1. Structure : identique pour tous les territoires
 export interface ThemeStructure {
@@ -11,15 +18,15 @@ export interface ThemeStructure {
   chartType: ChartType;
   descriptionPosition: BarDescriptionPosition;
   hasPercentageBottomDescription?: boolean;
-  barIds: string[];                 // l'ordre d'affichage des barres
+  barGroups: BarGroup[];
 }
 
 export interface TerritoryStat {
-  share: number; 
-  gap: number;    
+  share: number;
+  gap: number;
 }
 
-// ce qui est propre au territoire 
+// ce qui est propre au territoire
 export interface ThemeValues {
   mainPercentage: number;
   sampleSize: number;
