@@ -30,8 +30,13 @@ export const themeStructures: ThemeStructure[] = [
     chartType: 'bar_stacked',
     descriptionPosition: 'bottom',
     hasPercentageBottomDescription: false,
-    barGroups:{id:'main',color:'primary',
-    barIds: ['institutions_same_territory', 'support_accompaniement', 'business_same_sector'],}
+    barGroups: [
+      {
+        id: 'main',
+        color: 'primary',
+        barIds: ['institutions_same_territory', 'support_accompaniement', 'business_same_sector'],
+      },
+    ],
   },
   {
     id: 'ecological_transition_circular_economy',
@@ -39,10 +44,17 @@ export const themeStructures: ThemeStructure[] = [
     chartType: 'bar',
     descriptionPosition: 'top',
     hasPercentageBottomDescription: false,
-    barIds: [
-      'responsable_purchases_priority',
-      'responsable_purchases_implementation',
-      'energy_water_management',
+    barGroups: [
+      {
+        id: 'priority',
+        color: 'secondary',
+        barIds: ['responsable_purchases_priority'],
+      },
+      {
+        id: 'practices',
+        color: 'primary',
+        barIds: ['responsable_purchases_implementation', 'energy_water_management'],
+      },
     ],
   },
   {
@@ -51,7 +63,19 @@ export const themeStructures: ThemeStructure[] = [
     chartType: 'lollipop',
     descriptionPosition: 'none',
     hasPercentageBottomDescription: true,
-    barIds: [], //TODO!!!! ,
+    barLabelSource: 'territories',
+    barGroups: [
+      {
+        id: 'main',
+        color: 'primary',
+        barIds: ['anjou'],
+      },
+      {
+        id: 'secondary',
+        color: 'secondary',
+        barIds: ['montreal_nord', 'saint_leonard', 'riviere_des_prairies', 'montreal_est'],
+      },
+    ],
   },
   {
     id: 'artificial_intelligence',
@@ -59,22 +83,31 @@ export const themeStructures: ThemeStructure[] = [
     chartType: 'bar',
     descriptionPosition: 'middle',
     hasPercentageBottomDescription: false,
-    barIds: ['intention', 'resources'],
+    barGroups: [
+      { id: 'main', color: 'primary', barIds: ['intention'] },
+      { id: 'secondary', color: 'secondary', barIds: ['resources'] },
+    ],
   },
   {
     id: 'innovation',
     number: '06',
     chartType: 'bar',
     descriptionPosition: 'none',
-    barIds: [
-      'products',
-      'services',
-      'production',
-      'distribution',
-      'marketing',
-      'information',
-      'management',
-      'product_development',
+    barGroups: [
+      { id: 'main', color: 'primary', barIds: ['products'] },
+      {
+        id: 'secondary',
+        color: 'secondary',
+        barIds: [
+          'services',
+          'production',
+          'distribution',
+          'marketing',
+          'information',
+          'management',
+          'product_development',
+        ],
+      },
     ],
   },
   {
@@ -82,7 +115,9 @@ export const themeStructures: ThemeStructure[] = [
     number: '07',
     chartType: 'bar_stacked',
     descriptionPosition: 'bottom',
-    barIds: ['growth', 'profitability', 'share_market'],
+    barGroups: [
+      { id: 'main', color: 'primary', barIds: ['growth', 'profitability', 'share_market'] },
+    ],
   },
 ];
 export const themeValues: Record<TerritoryId, Record<string, ThemeValues>> = {

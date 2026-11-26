@@ -60,104 +60,167 @@
             "seven_angles": "Sept angles de lecture",
             "same_question": "Même question, même profil, quatre écarts en points"
         },
+        "territories": {
+            "anjou": "Anjou",
+            "montreal_nord": "Montréal-Nord",
+            "saint_leonard": "Saint-Léonard",
+            "riviere_des_prairies": "Rivière-des-Prairies-Pointe-aux-Trembles",
+            "montreal_est": "Montréal-Est"
+        },
         "dashboard": {
             "your_dashboard": "Votre tableau de bord",
             "description_general": "Chaque aperçu présente une question précise, un indicateur et quatre écarts comparables.",
             "base_2": "réponses valides",
             "explore_all_data": "Explorer toutes les données",
-            "territorial_coordination": {
-                "title": "Coordonitation territoriale",
-                "question": "Qu'est-ce qui facilite l'activité et la coordination?",
-                "subtitle": "Télécommunications jugées suffisantes",
-                "description_right_of_percentage": "% de réponses 4-5 à la question sur les télécommunications",
-                "description_bottom_of_percentage": "Infrastructure · part d'accord (4-5) · échelle 0-100%",
-                "telecommunications": "Télécommunications",
-                "logistics_merchandise_transport": "Logistique et transport de marchandises",
-                "public_transport": "Transport collectif",
-                "description_below_graphs": "Comparer des leviers précis: les trois barres représentent trois questions distinctes",
-                "reference_territory": "Territoire de référence",
-                "base": "Base: propriétaires d'entreprise"
-            },
-            "cooperation_and_competition": {
-                "title": "Coopération et concurrence",
-                "question": "Avec quels acteurs coopère-t-on le plus?",
-                "subtitle": "Coopération avec les acteurs insitutionnels locaux",
-                "description_right_of_percentage": "% de réponses 1-2, du côté coopération",
-                "institutions_same_territory": "Institutions du même territoire",
-                "support_accompaniement": "Soutien et accompagnement",
-                "business_same_sector": "Entreprises du même secteur",
-                "cooperation": "Coopération",
-                "neutre": "Neutre",
-                "competition": "Concurrence",
-                "description_below_graphs": "Une même relation peut être coopérative, neutre ou concurrentielle. Lire toute la description.",
-                "base": "Base: propriétaires d'entreprise"
-            },
-            "ecological_transition_circular_economy": {
-                "title": "Transition écologique et économie circulaire",
-                "question": "Quelles priorités et quelles pratiques écologiques?",
-                "subtitle": "Achats responsables: mise en œuvre élevée",
-                "description_right_of_percentage": "% de réponses 4-5 sur la mise en œuvre d'achats responsables",
-                "priority_public_actors": "PRIORITÉS · acteurs publics",
-                "responsable_purchases_priority": "Achats responsables · priorité élevée",
-                "practices_business_owners": "PRATIQUES · propriétaires d'entreprise",
-                "responsable_purchases_implementation": "Achats responsables · mise en œuvre élevée",
-                "energy_water_management": "Gestion de l'énergie et de l'eau",
-                "description_below_graphs": "Priorités des acteurs publics et pratiques des entreprises: deux publics distincts, sans soustraction entre eux.",
-                "base": "Base: propriétaires d'entreprise"
-            },
-            "attractivity": {
-                "title": "Attractivité",
-                "question": "Comment les porteurs perçoivent-ils l'Est selon le territoire envisagé?",
-                "subtitle": "Logistique de l'Est jugée attractive",
-                "description_right_of_percentage": "% de réponses 4-5 sur la logistique de l'Est",
-                "description_bottom_of_percentage": "Porteurs visant chaque territoire: accord (4-5) · 0-100%",
-                "selected": "sélectionné",
-                "description_below_graphs": "L'attractivité porte sur l'Est de Montréal. Les écarts ci-dessous comparent les perceptions des porteurs selon leur territoire envisagé, ces groupes peuvent se recouper",
-                "base": "Base: futurs entrepreneurs ayant indiqué un territoire envisagé"
-            },
-            "artificial_intelligence": {
-                "title": "Intelligence artificielle",
-                "question": "Les organisations se préparent-elles à l'IA?",
-                "subtitle": "Envisager l'adoption de l'IA'",
-                "description_right_of_percentage": "% de réponses 4-5 à «J'envisagerais d'adopter l'IA.»",
-                "intention": "Intention",
-                "consider_using_ai": "Envisager d'adopter l'IA",
-                "resources": "Ressources",
-                "has_resources_create_app": "Dispose de ressources pour créer des applications",
-                "same_public": "Même public · deux questions · part d'accord (4-5)",
-                "description_below_graphs": "L'intention et les ressources sont deux réponses distinctes. Elles ne mesurent pas un taux d'usage réel de l'IA.",
-                "base": "Base: propriétaires d'entreprise"
-            },
-            "innovation": {
-                "title": "Innovation",
-                "question": "Dans quels domaines les entreprises ont-elles innové?",
-                "subtitle": "Innovation de produits au cours des 3 dernières années",
-                "description_right_of_percentage": "% de «Oui» à l'introduction de produits nouveaux ou améliorés",
-                "products": "Produits",
-                "services": "Services",
-                "production": "Production/prestations",
-                "distribution": "Distribution/logistique",
-                "marketing": "Marketing/vente",
-                "information": "Information/communication",
-                "management": "Gestion/organisation",
-                "product_development": "Développement de produits",
-                "number_yes": "Part de «Oui» · chaque forme sur une échelle de 0 à 100%",
-                "description_below_graphs": "Plusieurs formes peuvent coexister dans une entreprise. Les pourcentage ne s'additionnent pas.",
-                "base": "Base: propriétaires d'entreprise"
-            },
-            "performance": {
-                "title": "Performance",
-                "question": "Comment les entreprises se situent-elles face aux concurrents?",
-                "subtitle": "Croissance perçue supérieure aux concurrents",
-                "description_right_of_percentage": "% de réponses 4-5 à la question sur la croissance",
-                "growth": "Croissance",
-                "lower": "Inférieure",
-                "same": "Semblable",
-                "higher": "Supérieure",
-                "profitability": "Rentabilité",
-                "share_market": "Part de marché",
-                "description_below_graphs": "Les dirigeants se comparents à leurs concurrents. Ces perceptions ne constituent pas un classement économique objectif.",
-                "base": "Base: propriétaires d'entreprise"
+            "themes": {
+                "territorial_coordination": {
+                    "title": "Coordonitation territoriale",
+                    "question": "Qu'est-ce qui facilite l'activité et la coordination?",
+                    "subtitle": "Télécommunications jugées suffisantes",
+                    "description_right_of_percentage": "% de réponses 4-5 à la question sur les télécommunications",
+                    "description_bottom_of_percentage": "Infrastructure · part d'accord (4-5) · échelle 0-100%",
+                    "bars": {
+                        "telecommunications": {
+                            "label": "Télécommunications"
+                        },
+                        "logistics_merchandise_transport": {
+                            "label": "Logistique et transport de marchandises"
+                        },
+                        "public_transport": {
+                            "label": "Transport collectif"
+                        }
+                    },
+                    "description_below_graphs": "Comparer des leviers précis: les trois barres représentent trois questions distinctes",
+                    "reference_territory": "Territoire de référence",
+                    "base": "Base: propriétaires d'entreprise"
+                },
+                "cooperation_and_competition": {
+                    "title": "Coopération et concurrence",
+                    "question": "Avec quels acteurs coopère-t-on le plus?",
+                    "subtitle": "Coopération avec les acteurs insitutionnels locaux",
+                    "description_right_of_percentage": "% de réponses 1-2, du côté coopération",
+                    "bars": {
+                        "institutions_same_territory": {
+                            "label": "Institutions du même territoire"
+                        },
+                        "support_accompaniement": {
+                            "label": "Soutien et accompagnement"
+                        },
+                        "business_same_sector": {
+                            "label": "Entreprises du même secteur"
+                        }
+                    },
+                    "cooperation": "Coopération",
+                    "neutre": "Neutre",
+                    "competition": "Concurrence",
+                    "description_below_graphs": "Une même relation peut être coopérative, neutre ou concurrentielle. Lire toute la description.",
+                    "base": "Base: propriétaires d'entreprise"
+                },
+                "ecological_transition_circular_economy": {
+                    "title": "Transition écologique et économie circulaire",
+                    "question": "Quelles priorités et quelles pratiques écologiques?",
+                    "subtitle": "Achats responsables: mise en œuvre élevée",
+                    "description_right_of_percentage": "% de réponses 4-5 sur la mise en œuvre d'achats responsables",
+                    "priority_public_actors": "PRIORITÉS · acteurs publics",
+                    "bars": {
+                        "responsable_purchases_priority": {
+                            "label": "Achats responsables · priorité élevée"
+                        },
+                        "responsable_purchases_implementation": {
+                            "label": "Achats responsables · mise en œuvre élevée"
+                        }
+                    },
+                    "practices_business_owners": "PRATIQUES · propriétaires d'entreprise",
+                    "energy_water_management": "Gestion de l'énergie et de l'eau",
+                    "description_below_graphs": "Priorités des acteurs publics et pratiques des entreprises: deux publics distincts, sans soustraction entre eux.",
+                    "base": "Base: propriétaires d'entreprise"
+                },
+                "attractivity": {
+                    "title": "Attractivité",
+                    "question": "Comment les porteurs perçoivent-ils l'Est selon le territoire envisagé?",
+                    "subtitle": "Logistique de l'Est jugée attractive",
+                    "description_right_of_percentage": "% de réponses 4-5 sur la logistique de l'Est",
+                    "description_bottom_of_percentage": "Porteurs visant chaque territoire: accord (4-5) · 0-100%",
+                    "selected": "sélectionné",
+                    "description_below_graphs": "L'attractivité porte sur l'Est de Montréal. Les écarts ci-dessous comparent les perceptions des porteurs selon leur territoire envisagé, ces groupes peuvent se recouper",
+                    "base": "Base: futurs entrepreneurs ayant indiqué un territoire envisagé"
+                },
+                "artificial_intelligence": {
+                    "title": "Intelligence artificielle",
+                    "question": "Les organisations se préparent-elles à l'IA?",
+                    "subtitle": "Envisager l'adoption de l'IA'",
+                    "description_right_of_percentage": "% de réponses 4-5 à «J'envisagerais d'adopter l'IA.»",
+                    "bars": {
+                        "intention": {
+                            "label": "Intention"
+                        },
+                        "resources": {
+                            "label": "Ressources"
+                        }
+                    },
+                    "consider_using_ai": "Envisager d'adopter l'IA",
+                    "has_resources_create_app": "Dispose de ressources pour créer des applications",
+                    "same_public": "Même public · deux questions · part d'accord (4-5)",
+                    "description_below_graphs": "L'intention et les ressources sont deux réponses distinctes. Elles ne mesurent pas un taux d'usage réel de l'IA.",
+                    "base": "Base: propriétaires d'entreprise"
+                },
+                "innovation": {
+                    "title": "Innovation",
+                    "question": "Dans quels domaines les entreprises ont-elles innové?",
+                    "subtitle": "Innovation de produits au cours des 3 dernières années",
+                    "description_right_of_percentage": "% de «Oui» à l'introduction de produits nouveaux ou améliorés",
+                    "bars": {
+                        "products": {
+                            "label": "Produits"
+                        },
+                        "services": {
+                            "label": "Services"
+                        },
+                        "production": {
+                            "label": "Production/prestations"
+                        },
+                        "distribution": {
+                            "label": "Distribution/logistique"
+                        },
+                        "marketing": {
+                            "label": "Marketing/vente"
+                        },
+                        "information": {
+                            "label": "Information/communication"
+                        },
+                        "management": {
+                            "label": "Gestion/organisation"
+                        },
+                        "product_development": {
+                            "label": "Développement de produits"
+                        }
+                    },
+                    "number_yes": "Part de «Oui» · chaque forme sur une échelle de 0 à 100%",
+                    "description_below_graphs": "Plusieurs formes peuvent coexister dans une entreprise. Les pourcentage ne s'additionnent pas.",
+                    "base": "Base: propriétaires d'entreprise"
+                },
+                "performance": {
+                    "title": "Performance",
+                    "question": "Comment les entreprises se situent-elles face aux concurrents?",
+                    "subtitle": "Croissance perçue supérieure aux concurrents",
+                    "description_right_of_percentage": "% de réponses 4-5 à la question sur la croissance",
+                    "bars": {
+                        "growth": {
+                            "label": "Croissance"
+                        },
+                        "profitability": {
+                            "label": "Rentabilité"
+                        },
+                        "share_market": {
+                            "label": "Part de marché"
+                        }
+                    },
+                    "lower": "Inférieure",
+                    "same": "Semblable",
+                    "higher": "Supérieure",
+                    "description_below_graphs": "Les dirigeants se comparents à leurs concurrents. Ces perceptions ne constituent pas un classement économique objectif.",
+                    "base": "Base: propriétaires d'entreprise"
+                }
             },
             "stats": {
                 "gap_with_other_territories": "Écarts avec les quatre autres territoires",

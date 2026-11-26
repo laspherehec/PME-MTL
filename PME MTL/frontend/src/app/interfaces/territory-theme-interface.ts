@@ -3,7 +3,7 @@ export type BarDescriptionPosition = 'top' | 'bottom' | 'middle' | 'none';
 export type TerritoryId =
   'anjou' | 'montreal_nord' | 'saint_leonard' | 'riviere_des_prairies' | 'montreal_est';
 export type BarColor = 'primary' | 'secondary';
-
+export type BarLabelSource= 'theme' | 'territories';
 export interface BarGroup {
   id: string; // clé i18n : groups.<id>.heading pou e theme 03 et pour le reste on a main ou secondary
   barIds: string[];
@@ -18,6 +18,7 @@ export interface ThemeStructure {
   chartType: ChartType;
   descriptionPosition: BarDescriptionPosition;
   hasPercentageBottomDescription?: boolean;
+  barLabelSource?: BarLabelSource;
   barGroups: BarGroup[];
 }
 

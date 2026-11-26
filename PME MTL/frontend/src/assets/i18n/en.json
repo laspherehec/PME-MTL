@@ -149,9 +149,15 @@
         "question": "Are organizations preparing for AI?",
         "subtitle": "Considering AI adoption",
         "description_right_of_percentage": "% of responses rated 4–5 to “I would consider adopting AI.”",
-        "intention": "Intention",
+        "bars": {
+          "intention": {
+            "label": "Intention"
+          },
+          "resources": {
+            "label": "Resources"
+          }
+        },
         "consider_using_ai": "Considering AI adoption",
-        "resources": "Resources",
         "has_resources_create_app": "Has resources to create applications",
         "same_public": "Same group · two questions · share agreeing (4–5)",
         "description_below_graphs": "Intention and resources are two distinct responses. They do not measure actual AI usage.",
@@ -162,14 +168,32 @@
         "question": "In which areas have businesses innovated?",
         "subtitle": "Product innovation over the past 3 years",
         "description_right_of_percentage": "% answering “Yes” to introducing new or improved products",
-        "products": "Products",
-        "services": "Services",
-        "production": "Production/service delivery",
-        "distribution": "Distribution/logistics",
-        "marketing": "Marketing/sales",
-        "information": "Information/communications",
-        "management": "Management/organization",
-        "product_development": "Product development",
+        "bars": {
+          "products": {
+            "label": "Products"
+          },
+          "services": {
+            "label": "Services"
+          },
+          "production": {
+            "label": "Production/service delivery"
+          },
+          "distribution": {
+            "label": "Distribution/logistics"
+          },
+          "marketing": {
+            "label": "Marketing/sales"
+          },
+          "information": {
+            "label": "Information/communications"
+          },
+          "management": {
+            "label": "Management/organization"
+          },
+          "product_development": {
+            "label": "Product development"
+          }
+        },
         "number_yes": "Share answering “Yes” · each type on a 0–100% scale",
         "description_below_graphs": "A business may have several forms of innovation. The percentages do not add up to 100%.",
         "base": "Base: business owners"
@@ -179,14 +203,29 @@
         "question": "How do businesses compare themselves with their competitors?",
         "subtitle": "Perceived growth higher than competitors",
         "description_of_percentage": "% of responses rated 4–5 to the question about growth",
-        "growth": "Growth",
+        "bars": {
+          "growth": {
+            "label": "Growth"
+          },
+          "profitability": {
+            "label": "Profitability"
+          },
+          "share_market": {
+            "label": "Market share"
+          }
+        },
         "lower": "Lower",
         "same": "About the same",
         "higher": "Higher",
-        "profitability": "Profitability",
-        "share_market": "Market share",
         "description_below_graphs": "Business leaders compare themselves with their competitors. These perceptions are not an objective economic ranking.",
         "base": "Base: business owners"
+      },
+      "territories": {
+        "anjou": "Anjou",
+        "montreal_nord": "Montréal-Nord",
+        "saint_leonard": "Saint-Léonard",
+        "riviere_des_prairies": "Rivière-des-Prairies-Pointe-aux-Trembles",
+        "montreal_est": "Montréal-Est"
       },
       "stats": {
         "gap_with_other_territories": "Gap with other four territories",
