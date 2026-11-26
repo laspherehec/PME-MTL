@@ -9,7 +9,7 @@ export const themeStructures: ThemeStructure[] = [
     id: 'territorial_coordination',
     number: '01',
     chartType: 'bar',
-    descriptionPosition: 'none',
+    barDescriptionPosition: 'none',
     hasPercentageBottomDescription: true,
     barGroups: [
       {
@@ -28,7 +28,7 @@ export const themeStructures: ThemeStructure[] = [
     id: 'cooperation_and_competition',
     number: '02',
     chartType: 'bar_stacked',
-    descriptionPosition: 'bottom',
+    barDescriptionPosition: 'bottom',
     hasPercentageBottomDescription: false,
     barGroups: [
       {
@@ -42,7 +42,7 @@ export const themeStructures: ThemeStructure[] = [
     id: 'ecological_transition_circular_economy',
     number: '03',
     chartType: 'bar',
-    descriptionPosition: 'top',
+    barDescriptionPosition: 'top',
     hasPercentageBottomDescription: false,
     barGroups: [
       {
@@ -61,7 +61,7 @@ export const themeStructures: ThemeStructure[] = [
     id: 'attractivity',
     number: '04',
     chartType: 'lollipop',
-    descriptionPosition: 'none',
+    barDescriptionPosition: 'none',
     hasPercentageBottomDescription: true,
     barLabelSource: 'territories',
     barGroups: [
@@ -81,7 +81,7 @@ export const themeStructures: ThemeStructure[] = [
     id: 'artificial_intelligence',
     number: '05',
     chartType: 'bar',
-    descriptionPosition: 'middle',
+    barDescriptionPosition: 'middle',
     hasPercentageBottomDescription: false,
     barGroups: [
       { id: 'main', color: 'primary', barIds: ['intention'] },
@@ -92,7 +92,7 @@ export const themeStructures: ThemeStructure[] = [
     id: 'innovation',
     number: '06',
     chartType: 'bar',
-    descriptionPosition: 'none',
+    barDescriptionPosition: 'none',
     barGroups: [
       { id: 'main', color: 'primary', barIds: ['products'] },
       {
@@ -114,7 +114,7 @@ export const themeStructures: ThemeStructure[] = [
     id: 'performance',
     number: '07',
     chartType: 'bar_stacked',
-    descriptionPosition: 'bottom',
+    barDescriptionPosition: 'bottom',
     barGroups: [
       { id: 'main', color: 'primary', barIds: ['growth', 'profitability', 'share_market'] },
     ],

@@ -1,18 +1,14 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { TranslocoPipe } from '@jsverse/transloco';
+import { TERRITORY_IDS } from '../../interfaces/territory-theme-interface';
 
 @Component({
-  imports: [TranslocoPipe],
+  imports: [RouterLink, TranslocoPipe],
   selector: 'app-territories-page',
   styleUrl: './territories-page.css',
   templateUrl: './territories-page.html',
 })
 export class TerritoriesPage {
-  territories: string[] = [
-    'Anjou',
-    'Montréal-Nord',
-    'Saint-Léonard',
-    'Rivière-des-Prairies-Pointe-aux-Trembles',
-    'Montréal-Est',
-  ];
+  readonly territories = TERRITORY_IDS;
 }

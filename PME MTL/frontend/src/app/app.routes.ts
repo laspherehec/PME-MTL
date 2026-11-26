@@ -8,5 +8,6 @@ export const routes: Routes = [
   { path: '', component: Home },
   { path: 'territories', component: TerritoriesPage },
   { path: 'comparison-tool', component: ComparisonTool },
-  { path: 'territory', component: TerritoryPage },
+  { path: 'territory', redirectTo: 'territories', pathMatch: 'full' },
+  { path: 'territory/:territoryId', component: TerritoryPage },
 ];

@@ -10,7 +10,11 @@
       </span>
     </div>
 
-    <h1 id="territory-title">{{ 'territory_page.intro.territory' | transloco }}</h1>
+    @if (territoryId) {
+      <h1 id="territory-title">
+        {{ ('territory_page.dashboard.territories.' + territoryId) | transloco }}
+      </h1>
+    }
     <p class="territory-intro__description">
       {{ 'territory_page.intro.essential_signs' | transloco }}
     </p>
@@ -50,24 +54,108 @@
   </section>
 
   <section class="territory-dashboard" aria-labelledby="territory-dashboard-title">
-    <div class="territory-dashboard__intro">
-      <h2 id="territory-dashboard-title">
-        {{ 'territory_page.dashboard.your_dashboard' | transloco }}
-      </h2>
-      <nav class="territory-dashboard__sections" [attr.aria-label]="'territory_page.dashboard.your_dashboard' | transloco">
-        @for (section of dashboardSections; track section) {
-          <button
-            class="territory-dashboard__section-button"
-            type="button"
-            [attr.aria-label]="('territory_page.intro.theme' | transloco) + ' ' + section"
-          >
-            {{ section }}
-          </button>
-        }
-      </nav>
-    </div>
+    <h2 id="territory-dashboard-title">
+      {{ 'territory_page.dashboard.your_dashboard' | transloco }}
+    </h2>
     <p class="territory-dashboard__description">
       {{ 'territory_page.dashboard.description_general' | transloco }}
     </p>
+
+    @if (territoryId) {
+      <div class="territory-dashboard__themes">
+        @for (dashboardTheme of dashboardThemes(); track dashboardTheme.theme.id; let last = $last) {
+          <article
+            class="territory-dashboard__theme"
+            [class.territory-dashboard__theme--wide]="last"
+          >
+            <header class="territory-dashboard__theme-heading">
+              <h3 [id]="'territory-theme-title-' + dashboardTheme.theme.id">
+                {{ dashboardTheme.theme.number }} /
+                {{
+                  ('territory_page.dashboard.themes.' + dashboardTheme.theme.id + '.title')
+                    | transloco
+                }}
+              </h3>
+              <p>
+                {{
+                  ('territory_page.dashboard.themes.' + dashboardTheme.theme.id + '.question')
+                    | transloco
+                }}
+              </p>
+            </header>
+
+            <section class="territory-dashboard__metric">
+              <p class="territory-dashboard__subtitle">
+                {{
+                  ('territory_page.dashboard.themes.' + dashboardTheme.theme.id + '.subtitle')
+                    | transloco
+                }}
+              </p>
+              <div class="territory-dashboard__percentage">
+                <strong>{{ dashboardTheme.values.mainPercentage }}</strong>
+                <p>
+                  {{
+                    ('territory_page.dashboard.themes.' +
+                      dashboardTheme.theme.id +
+                      '.description_right_of_percentage')
+                      | transloco
+                  }}
+                </p>
+              </div>
+              @if (dashboardTheme.theme.hasPercentageBottomDescription) {
+                <p class="territory-dashboard__percentage-note">
+                  {{
+                    ('territory_page.dashboard.themes.' +
+                      dashboardTheme.theme.id +
+                      '.description_bottom_of_percentage')
+                      | transloco
+                  }}
+                </p>
+              }
+            </section>
+
+            <section
+              class="territory-dashboard__comparison"
+              [attr.aria-labelledby]="'territory-stats-title-' + dashboardTheme.theme.id"
+            >
+              <h4 [id]="'territory-stats-title-' + dashboardTheme.theme.id">
+                {{ 'territory_page.dashboard.stats.gap_with_other_territories' | transloco }}
+              </h4>
+              <p class="territory-dashboard__comparison-description">
+                {{ ('territory_page.dashboard.territories.' + territoryId) | transloco }}
+                {{ 'territory_page.dashboard.stats.minus_reference' | transloco }}
+              </p>
+
+              <table class="territory-dashboard__comparison-table">
+                <thead>
+                  <tr>
+                    <th scope="col">
+                      {{ 'territory_page.dashboard.stats.reference_territory' | transloco }}
+                    </th>
+                    <th scope="col">{{ 'territory_page.dashboard.stats.share' | transloco }}</th>
+                    <th scope="col">{{ 'territory_page.dashboard.stats.gap' | transloco }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @for (stat of dashboardTheme.comparisonStats; track stat.territoryId) {
+                    <tr>
+                      <th scope="row">
+                        {{ ('territory_page.dashboard.territories.' + stat.territoryId) | transloco }}
+                      </th>
+                      <td>{{ stat.share }}%</td>
+                      <td>{{ stat.gap > 0 ? '+' : '' }}{{ stat.gap }} pts</td>
+                    </tr>
+                  }
+                </tbody>
+              </table>
+              <p class="territory-dashboard__comparison-note">
+                {{ 'territory_page.dashboard.stats.positive_gap_explanation' | transloco }}
+              </p>
+            </section>
+          </article>
+        }
+      </div>
+    }
   </section>
+
 </main>

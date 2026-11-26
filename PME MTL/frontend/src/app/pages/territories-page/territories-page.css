@@ -92,6 +92,7 @@
   font-weight: 700;
   cursor: pointer;
   text-align: left;
+  text-decoration: none;
 }
 
 .territories-page__portrait-button::after {

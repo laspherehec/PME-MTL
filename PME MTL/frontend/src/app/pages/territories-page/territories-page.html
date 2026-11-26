@@ -16,10 +16,15 @@
     @for (territory of territories; track territory; let index = $index) {
       <article class="territories-page__territory">
         <span class="territories-page__number">{{ (index + 1).toString().padStart(2, '0') }}</span>
-        <h2 class="territories-page__name">{{ territory }}</h2>
-        <button class="territories-page__portrait-button" type="button">
+        <h2 class="territories-page__name">
+          {{ ('territory_page.dashboard.territories.' + territory) | transloco }}
+        </h2>
+        <a
+          class="territories-page__portrait-button"
+          [routerLink]="['/territory', territory]"
+        >
           {{ 'territories_page.see_portrait' | transloco }}
-        </button>
+        </a>
       </article>
     }
   </section>

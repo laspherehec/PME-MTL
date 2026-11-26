@@ -60,13 +60,6 @@
             "seven_angles": "Sept angles de lecture",
             "same_question": "Même question, même profil, quatre écarts en points"
         },
-        "territories": {
-            "anjou": "Anjou",
-            "montreal_nord": "Montréal-Nord",
-            "saint_leonard": "Saint-Léonard",
-            "riviere_des_prairies": "Rivière-des-Prairies-Pointe-aux-Trembles",
-            "montreal_est": "Montréal-Est"
-        },
         "dashboard": {
             "your_dashboard": "Votre tableau de bord",
             "description_general": "Chaque aperçu présente une question précise, un indicateur et quatre écarts comparables.",
@@ -221,6 +214,13 @@
                     "description_below_graphs": "Les dirigeants se comparents à leurs concurrents. Ces perceptions ne constituent pas un classement économique objectif.",
                     "base": "Base: propriétaires d'entreprise"
                 }
+            },
+            "territories": {
+                "anjou": "Anjou",
+                "montreal_nord": "Montréal-Nord",
+                "saint_leonard": "Saint-Léonard",
+                "riviere_des_prairies": "Rivière-des-Prairies-Pointe-aux-Trembles",
+                "montreal_est": "Montréal-Est"
             },
             "stats": {
                 "gap_with_other_territories": "Écarts avec les quatre autres territoires",

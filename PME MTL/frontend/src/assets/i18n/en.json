@@ -66,6 +66,7 @@
       "base": "Base: business owners",
       "base_2": "valid responses",
       "explore_all_data": "Explore all the data",
+      "themes": {
       "territorial_coordination": {
         "title": "Territorial coordination",
         "question": "What facilitates business activity and coordination?",
@@ -91,7 +92,7 @@
         "title": "Cooperation and competition",
         "question": "Which stakeholders do businesses cooperate with most?",
         "subtitle": "Cooperation with local institutional stakeholders",
-        "descriptions_right_of_percentage": "% of responses rated 1–2, indicating cooperation",
+        "description_right_of_percentage": "% of responses rated 1–2, indicating cooperation",
         "bars": {
           "institutions_same_territory": {
             "label": "Institutions in the same territory"
@@ -202,7 +203,7 @@
         "title": "Performance",
         "question": "How do businesses compare themselves with their competitors?",
         "subtitle": "Perceived growth higher than competitors",
-        "description_of_percentage": "% of responses rated 4–5 to the question about growth",
+        "description_right_of_percentage": "% of responses rated 4–5 to the question about growth",
         "bars": {
           "growth": {
             "label": "Growth"
@@ -219,6 +220,7 @@
         "higher": "Higher",
         "description_below_graphs": "Business leaders compare themselves with their competitors. These perceptions are not an objective economic ranking.",
         "base": "Base: business owners"
+      },
       },
       "territories": {
         "anjou": "Anjou",

@@ -134,52 +134,136 @@
   margin-top: 2rem;
 }
 
-.territory-dashboard__intro {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
-
-.territory-dashboard__intro h2 {
+.territory-dashboard > h2 {
   margin: 0;
   color: inherit;
   font-size: clamp(1.4rem, 3vw, 1.5rem);
-  
-}
-
-.territory-dashboard__sections {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-left: 10rem;
-}
-
-.territory-dashboard__section-button {
-  display: flex;
-  width: 3.25rem;
-  height: 3.25rem;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0 0.6rem;
-  border: 1px solid #62e2df;
-  border-radius: 0.5rem;
-  background: transparent;
-  color: #fff;
-  font: inherit;
-  font-weight: 600;
-  text-align: left;
-  cursor: pointer;
 }
 
 .territory-dashboard__description {
   max-width: 56rem;
-  margin: 1.5rem 0 0;
+  margin: 2rem 0 0;
   color: #62e2df;
   font-size: 1rem;
   font-weight: 200;
   line-height: 1.6;
+}
+
+.territory-dashboard__themes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
   margin-top: 2rem;
+}
+
+.territory-dashboard__theme {
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border: 1px solid rgb(255 255 255 / 35%);
+  border-radius: 0.75rem;
+  background-color: rgb(255 255 255 / 3%);
+}
+
+.territory-dashboard__theme--wide {
+  grid-column: 1 / -1;
+}
+
+.territory-dashboard__theme-heading h3 {
+  margin: 0;
+  color: inherit;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+}
+
+.territory-dashboard__theme-heading p {
+  margin: 1rem 0 0;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.territory-dashboard__metric {
+  margin-top: 2rem;
+}
+
+.territory-dashboard__subtitle {
+  margin: 0;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.territory-dashboard__percentage {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.territory-dashboard__percentage strong {
+  color: #62e2df;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.territory-dashboard__percentage p,
+.territory-dashboard__percentage-note {
+  margin: 0;
+  color: rgb(255 255 255 / 82%);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.territory-dashboard__percentage-note {
+  margin-top: 0.75rem;
+}
+
+.territory-dashboard__comparison {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgb(255 255 255 / 25%);
+}
+
+.territory-dashboard__comparison h4 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.territory-dashboard__comparison-description {
+  margin: 0.75rem 0 1.5rem;
+  color: rgb(255 255 255 / 82%);
+  font-weight: 300;
+}
+
+.territory-dashboard__comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+  text-align: left;
+}
+
+.territory-dashboard__comparison-table th,
+.territory-dashboard__comparison-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid rgb(255 255 255 / 18%);
+}
+
+.territory-dashboard__comparison-table thead th {
+  color: #62e2df;
+  font-weight: 700;
+}
+
+.territory-dashboard__comparison-table tbody th {
+  font-weight: 500;
+}
+
+.territory-dashboard__comparison-note {
+  margin: 1rem 0 0;
+  color: rgb(255 255 255 / 72%);
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 @media (max-width: 700px) {
@@ -189,6 +273,14 @@
 
   .territory-stat {
     min-height: 9.5rem;
+  }
+
+  .territory-dashboard__themes {
+    grid-template-columns: 1fr;
+  }
+
+  .territory-dashboard__theme--wide {
+    grid-column: auto;
   }
 }
 
@@ -213,5 +305,14 @@
 
   .territory-intro__action {
     width: 100%;
+  }
+
+  .territory-dashboard__theme {
+    padding: 1.25rem;
+  }
+
+  .territory-dashboard__comparison-table th,
+  .territory-dashboard__comparison-table td {
+    padding: 0.7rem 0.5rem;
   }
 }

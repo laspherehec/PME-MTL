@@ -1,7 +1,19 @@
 export type ChartType = 'bar_stacked' | 'bar' | 'lollipop';
 export type BarDescriptionPosition = 'top' | 'bottom' | 'middle' | 'none';
-export type TerritoryId =
-  'anjou' | 'montreal_nord' | 'saint_leonard' | 'riviere_des_prairies' | 'montreal_est';
+export const TERRITORY_IDS = [
+  'anjou',
+  'montreal_nord',
+  'saint_leonard',
+  'riviere_des_prairies',
+  'montreal_est',
+] as const;
+export type TerritoryId = (typeof TERRITORY_IDS)[number];
+
+const territoryIdSet: ReadonlySet<string> = new Set(TERRITORY_IDS);
+
+export function isTerritoryId(value: string | null): value is TerritoryId {
+  return value !== null && territoryIdSet.has(value);
+}
 export type BarColor = 'primary' | 'secondary';
 export type BarLabelSource= 'theme' | 'territories';
 export interface BarGroup {
@@ -16,7 +28,7 @@ export interface ThemeStructure {
   id: string;
   number: string;
   chartType: ChartType;
-  descriptionPosition: BarDescriptionPosition;
+  barDescriptionPosition: BarDescriptionPosition;
   hasPercentageBottomDescription?: boolean;
   barLabelSource?: BarLabelSource;
   barGroups: BarGroup[];
